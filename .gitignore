@@ -3,9 +3,11 @@
 /venv/
 .idea/
 keystore/
-.pyc
-.pyo
+./*.pyc
+./*.pyo
 .afdesign
 venv/share/
+.DS_Store
+
 
 
