@@ -1,0 +1,1596 @@
+int logctl_get(): open '/dev/hwlog_switch' fail -1, 13. Permission denied
+
+Note: log switch off, only log_main and log_events will have logs!
+--------- beginning of main
+E/WifiStateMachine( 2912): fetchRssiLinkSpeedAndFrequencyNative rssi=-62 linkspeed=72 SSID="SPARK-47A2ZV"
+E/WifiStateMachine( 2912): calculateWifiScore freq=2412 speed=72 score=100 highRSSI  -> txbadrate=0.00 txgoodrate=84.11 txretriesrate=0.00 rxrate=101.86 userTriggerdPenalty0
+E/WifiStateMachine( 2912):  good link -> stuck count =0
+E/WifiStateMachine( 2912):  badRSSI count0 lowRSSI count0 --> score 60
+E/WifiStateMachine( 2912):  isHighRSSI       ---> score=65
+I/OAM     ( 2713): [check_file_size:402]/data/hwlogdir/wifi_log/wifi_log_1 log file beyond size=10240Byte, creat new file
+I/OAM     ( 2713): [rename_old_file:107]rename_old_file
+I/OAM     ( 2713): 
+I/MQoS    ( 2912): onSignal: mSubId=0,currDataSubID=0
+I/MQoS    ( 2912): received cell-signal:5
+I/GmscoreIpa( 4263): Starting mediastore instant index
+I/PG Utils( 4263): acquire_providerpkg:[com.android.providers.media] pid:[]  maybe timeout , send to PG
+I/PG Utils( 4263): acquire_providerpkg:[com.android.providers.media] pid:[]  maybe timeout , send to PG
+I/wpa_supplicant( 3052): wlan0: HEART-BEAT-ACK: 23
+E/WifiMonitor( 2912): WifiMonitor:wlan0 cnt=75 dispatchEvent: HEART-BEAT-ACK: 23
+E/WifiStateMachine( 2912):  ConnectedState !what:147506 0 0
+E/WifiStateMachine( 2912):  L2ConnectedState !what:147506 0 0
+E/WifiStateMachine( 2912):  ConnectModeState !what:147506 0 0
+E/WifiStateMachine( 2912):  DriverStartedState !what:147506 0 0
+E/WifiStateMachine( 2912):  SupplicantStartedState !what:147506 0 0
+I/AudioPolicyManager( 2544): stopOutput() output 2, stream 3, session 17
+I/AudioPolicyManager( 2544): getNewOutputDevice() selected device 0
+I/AudioPolicyManager( 2544): setOutputDevice() output 2 device 0x0000 delayMs 40
+I/AudioPolicyManager( 2544): setOutputDevice() prevDevice 0x0002
+I/AudioPolicyManager( 2544): isStreamActive() stream 3 inPastMs 5000
+I/AudioPolicyManager( 2544): setOutputDevice() setting same device 0x0000 or null device for output 2
+I/AudioPolicyManager( 2544): isStreamActive() stream 3 inPastMs 5000
+I/AudioPolicyManager( 2544): isStreamActive() stream 3 inPastMs 5000
+I/MediaPlayerFactory( 2544): filePath /storage/emulated/0/kivy/pub/audio/disco_dancing.wav!
+E/MediaPlayerFactory( 2544):  create StagefrightPlayer
+E/MediaPlayer( 8731): Should have subtitle controller already set
+I/str_params( 2544): key: 'mode' value: ''
+I/AwesomePlayer( 2544): [isLowPowerMode] isLowPowerApk[0]
+I/AwesomePlayer( 2544): is not Low Power Apk.
+I/AwesomePlayer( 2544): create AudioPlayer
+W/audio_a2dp_hw( 2544): adev_set_parameters: WARNING: set param called even when stream out is null
+I/AudioPolicyManager( 2544): getOutput() stream 3, samplingRate 0, format 0, channelMask 3, flags 0
+W/audio_a2dp_hw( 2544): adev_set_parameters: WARNING: set param called even when stream out is null
+I/AudioPolicyManager( 2544): getOutput() stream 3, samplingRate 0, format 0, channelMask 3, flags 0
+I/AudioPolicyManager( 2544): getOutput() stream 3, samplingRate 44100, format 1, channelMask 3, flags 0
+I/AudioPolicyManager( 2544): getOutput() stream 3, samplingRate 0, format 0, channelMask 3, flags 0
+I/AudioPolicyManager( 2544): startOutput() output 2, stream 3, session 17
+I/AudioPolicyManager( 2544): getNewOutputDevice() selected device 2
+I/AudioPolicyManager( 2544): isStreamActive() stream 3 inPastMs 0
+I/AudioPolicyManager( 2544): setOutputDevice() output 2 device 0x0002 delayMs 0
+I/AudioPolicyManager( 2544): setOutputDevice() prevDevice 0x0002
+I/AudioPolicyManager( 2544): isStreamActive() stream 3 inPastMs 5000
+I/AudioPolicyManager( 2544): setOutputDevice() setting same device 0x0002 or null device for output 2
+I/audio_hw_primary( 2544): check_device_change return 1
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): checkAndSetVolume: index 5 output 2 device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): checkAndSetVolume: index 0 output 2 device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): checkAndSetVolume: index 0 output 2 device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): checkAndSetVolume: index 2 output 2 device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): checkAndSetVolume: index 1 output 2 device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): checkAndSetVolume: index 0 output 2 device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): checkAndSetVolume: index 7 output 2 device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): checkAndSetVolume: index 7 output 2 device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): checkAndSetVolume: index 0 output 2 device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): checkAndSetVolume: index 2 output 2 device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): checkAndSetVolume: index 11 output 2 device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): checkAndSetVolume: index 2 output 2 device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): isStreamActive() stream 3 inPastMs 5000
+I/AudioPolicyManager( 2544): isStreamActive() stream 3 inPastMs 5000
+E/HsmCoreServiceImpl( 2912): onTransact in code is: 102
+I/MediaProcessHandler( 2912): processOp opType: 0, uid: 10096, pid: 8731
+E/WifiStateMachine( 2912):  ConnectedState !CMD_RSSI_POLL 9 0 "SPARK-47A2ZV" b0:e5:ed:3e:35:d4 rssi=-62 f=2412 sc=100 link=72 tx=84.1, 0.0, 0.0  rx=101.9 bcn=0 [on:0 tx:0 rx:0 period:3002] from screen [on:0 period:-1837812339] gl hn u24 rssi=-57 ag=0 hr ticks 0,0,4 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+E/WifiStateMachine( 2912):  L2ConnectedState !CMD_RSSI_POLL 9 0 "SPARK-47A2ZV" b0:e5:ed:3e:35:d4 rssi=-62 f=2412 sc=100 link=72 tx=84.1, 0.0, 0.0  rx=101.9 bcn=0 [on:0 tx:0 rx:0 period:1] from screen [on:0 period:-1837812338] gl hn u24 rssi=-57 ag=0 hr ticks 0,0,4 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+E/WifiStateMachine( 2912): fetchRssiLinkSpeedAndFrequencyNative rssi=-59 linkspeed=72 SSID="SPARK-47A2ZV"
+E/WifiStateMachine( 2912): calculateWifiScore freq=2412 speed=72 score=100 highRSSI  -> txbadrate=0.00 txgoodrate=84.56 txretriesrate=0.00 rxrate=107.43 userTriggerdPenalty0
+E/WifiStateMachine( 2912):  good link -> stuck count =0
+E/WifiStateMachine( 2912):  badRSSI count0 lowRSSI count0 --> score 60
+E/WifiStateMachine( 2912):  isHighRSSI       ---> score=65
+E/Thermal-daemon( 2346): [charger_ic] temp_new :38  temp_old :37
+E/Thermal-daemon( 2346): Report temperature: [charger_ic] temp :38  report_threshold:1
+I/Finsky  ( 6374): [83] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-frosting.db com.google.android.finsky.bo.ao@2e8fca71[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 1]
+E/PlayCommon( 6374): [95] com.google.android.play.b.x.a(20): Failed to connect to server for server timestamp: java.net.UnknownHostException: Unable to resolve host "play.googleapis.com": No address associated with hostname
+W/ChimeraUtils( 3952): Non Chimera context
+I/PlayCommon( 6374): [95] com.google.android.play.b.g.a(325): Connecting to server: https://play.googleapis.com/play/log?format=raw&proto_v2=true
+E/PlayCommon( 6374): [95] com.google.android.play.b.g.a(360): Failed to connect to server: java.net.UnknownHostException: Unable to resolve host "play.googleapis.com": No address associated with hostname
+I/OAM     ( 2713): [check_file_size:402]/data/hwlogdir/wifi_log/wifi_log_1 log file beyond size=10240Byte, creat new file
+I/OAM     ( 2713): [rename_old_file:107]rename_old_file
+I/OAM     ( 2713): 
+E/WifiStateMachine( 2912):  ConnectedState !CMD_RSSI_POLL 9 0 "SPARK-47A2ZV" b0:e5:ed:3e:35:d4 rssi=-59 f=2412 sc=100 link=72 tx=84.6, 0.0, 0.0  rx=107.4 bcn=0 [on:0 tx:0 rx:0 period:3006] from screen [on:0 period:-1837809326] gl hn u24 rssi=-54 ag=0 hr ticks 0,0,4 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+E/WifiStateMachine( 2912):  L2ConnectedState !CMD_RSSI_POLL 9 0 "SPARK-47A2ZV" b0:e5:ed:3e:35:d4 rssi=-59 f=2412 sc=100 link=72 tx=84.6, 0.0, 0.0  rx=107.4 bcn=0 [on:0 tx:0 rx:0 period:1] from screen [on:0 period:-1837809325] gl hn u24 rssi=-54 ag=0 hr ticks 0,0,4 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+E/WifiStateMachine( 2912): fetchRssiLinkSpeedAndFrequencyNative rssi=-61 linkspeed=72 SSID="SPARK-47A2ZV"
+E/WifiStateMachine( 2912): calculateWifiScore freq=2412 speed=72 score=100 highRSSI  -> txbadrate=0.00 txgoodrate=88.28 txretriesrate=0.00 rxrate=112.21 userTriggerdPenalty0
+E/WifiStateMachine( 2912):  good link -> stuck count =0
+E/WifiStateMachine( 2912):  badRSSI count0 lowRSSI count0 --> score 60
+E/WifiStateMachine( 2912):  isHighRSSI       ---> score=65
+I/WVCdm   ( 2544): CdmEngine::OpenSession
+I/WVCdm   ( 2544): Level3 Library Sep 25 2014 17:10:03
+W/WVCdm   ( 2544): Could not read /data/mediadrm/IDM1013/ay64.dat2: No such file or directory
+W/WVCdm   ( 2544): Could not load liboemcrypto.so. Falling Back to L3.  dlopen failed: library "liboemcrypto.so" not found
+I/WVCdm   ( 2544): CdmEngine::QueryKeyControlInfo
+W/WVCdm   ( 2544): BufferReader::Read<T> : Failure during parse: Not enough bytes (4)
+W/WVCdm   ( 2544): CdmEngine::ExtractWidevinePssh: Unable to read PSSH atom size
+I/WVCdm   ( 2544): CdmEngine::GenerateKeyRequest
+I/AudioPolicyManager( 2544): stopOutput() output 2, stream 3, session 17
+I/AudioPolicyManager( 2544): getNewOutputDevice() selected device 0
+I/AudioPolicyManager( 2544): setOutputDevice() output 2 device 0x0000 delayMs 40
+I/AudioPolicyManager( 2544): setOutputDevice() prevDevice 0x0002
+I/AudioPolicyManager( 2544): isStreamActive() stream 3 inPastMs 5000
+I/AudioPolicyManager( 2544): setOutputDevice() setting same device 0x0000 or null device for output 2
+I/AudioPolicyManager( 2544): isStreamActive() stream 3 inPastMs 5000
+I/AudioPolicyManager( 2544): isStreamActive() stream 3 inPastMs 5000
+I/MediaPlayerFactory( 2544): filePath /storage/emulated/0/kivy/pub/audio/disco_dancing.wav!
+E/MediaPlayerFactory( 2544):  create StagefrightPlayer
+E/MediaPlayer( 8731): Should have subtitle controller already set
+I/str_params( 2544): key: 'mode' value: ''
+I/AwesomePlayer( 2544): [isLowPowerMode] isLowPowerApk[0]
+I/AwesomePlayer( 2544): is not Low Power Apk.
+I/AwesomePlayer( 2544): create AudioPlayer
+W/audio_a2dp_hw( 2544): adev_set_parameters: WARNING: set param called even when stream out is null
+I/AudioPolicyManager( 2544): getOutput() stream 3, samplingRate 0, format 0, channelMask 3, flags 0
+W/audio_a2dp_hw( 2544): adev_set_parameters: WARNING: set param called even when stream out is null
+I/AudioPolicyManager( 2544): getOutput() stream 3, samplingRate 0, format 0, channelMask 3, flags 0
+I/AudioPolicyManager( 2544): getOutput() stream 3, samplingRate 44100, format 1, channelMask 3, flags 0
+I/AudioPolicyManager( 2544): getOutput() stream 3, samplingRate 0, format 0, channelMask 3, flags 0
+I/AudioPolicyManager( 2544): startOutput() output 2, stream 3, session 17
+I/AudioPolicyManager( 2544): getNewOutputDevice() selected device 2
+I/AudioPolicyManager( 2544): isStreamActive() stream 3 inPastMs 0
+I/AudioPolicyManager( 2544): setOutputDevice() output 2 device 0x0002 delayMs 0
+I/AudioPolicyManager( 2544): setOutputDevice() prevDevice 0x0002
+I/AudioPolicyManager( 2544): isStreamActive() stream 3 inPastMs 5000
+I/AudioPolicyManager( 2544): setOutputDevice() setting same device 0x0002 or null device for output 2
+I/audio_hw_primary( 2544): check_device_change return 1
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): checkAndSetVolume: index 5 output 2 device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): checkAndSetVolume: index 0 output 2 device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): checkAndSetVolume: index 0 output 2 device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): checkAndSetVolume: index 2 output 2 device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): checkAndSetVolume: index 1 output 2 device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): checkAndSetVolume: index 0 output 2 device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): checkAndSetVolume: index 7 output 2 device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): checkAndSetVolume: index 7 output 2 device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): checkAndSetVolume: index 0 output 2 device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): checkAndSetVolume: index 2 output 2 device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): checkAndSetVolume: index 11 output 2 device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): checkAndSetVolume: index 2 output 2 device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): isStreamActive() stream 3 inPastMs 5000
+I/AudioPolicyManager( 2544): isStreamActive() stream 3 inPastMs 5000
+E/HsmCoreServiceImpl( 2912): onTransact in code is: 102
+I/MediaProcessHandler( 2912): processOp opType: 0, uid: 10096, pid: 8731
+I/OAM     ( 2713): [check_file_size:402]/data/hwlogdir/wifi_log/wifi_log_1 log file beyond size=10240Byte, creat new file
+I/OAM     ( 2713): [rename_old_file:107]rename_old_file
+I/OAM     ( 2713): 
+I/WVCdm   ( 2544): CdmEngine::CloseSession
+I/WVCdm   ( 2544): L3 Terminate.
+I/CheckinUtil( 4263): Classify the device as Phone.
+I/CheckinConnFactory( 4263): Get token from PseudonymousIdApi: 156=YfD9Gja5jcQbRYP3w3So3AhPwcjjUNRrCqYh--coCsUPj2QaRKBiz6asN0S5zebI0roxw-dWlDKyP90gVPidtnKee8x5arzRoBk-TeQuin87slyNQkSQ0jU7DwVK6IDIXa_L8PM5eWv3nogfKgqwA_TJWM-5_vXB9d8DPB9jg64
+I/PG Utils( 4263): acquire_providerpkg:[com.google.android.gsf] pid:[]  maybe timeout , send to PG
+E/WifiStateMachine( 2912):  ConnectedState !CMD_RSSI_POLL 9 0 "SPARK-47A2ZV" b0:e5:ed:3e:35:d4 rssi=-61 f=2412 sc=100 link=72 tx=88.3, 0.0, 0.0  rx=112.2 bcn=0 [on:0 tx:0 rx:0 period:3002] from screen [on:0 period:-1837806317] gl hn u24 rssi=-56 ag=0 hr ticks 0,0,4 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+E/WifiStateMachine( 2912):  L2ConnectedState !CMD_RSSI_POLL 9 0 "SPARK-47A2ZV" b0:e5:ed:3e:35:d4 rssi=-61 f=2412 sc=100 link=72 tx=88.3, 0.0, 0.0  rx=112.2 bcn=0 [on:0 tx:0 rx:0 period:1] from screen [on:0 period:-1837806316] gl hn u24 rssi=-56 ag=0 hr ticks 0,0,4 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+E/WifiStateMachine( 2912): fetchRssiLinkSpeedAndFrequencyNative rssi=-60 linkspeed=72 SSID="SPARK-47A2ZV"
+E/WifiStateMachine( 2912): calculateWifiScore freq=2412 speed=72 score=100 highRSSI  -> txbadrate=0.00 txgoodrate=82.14 txretriesrate=0.00 rxrate=106.11 userTriggerdPenalty0
+E/WifiStateMachine( 2912):  good link -> stuck count =0
+E/WifiStateMachine( 2912):  badRSSI count0 lowRSSI count0 --> score 60
+E/WifiStateMachine( 2912):  isHighRSSI       ---> score=65
+I/CheckinRequestProcessor( 4263): set cookie as: NID=156=YfD9Gja5jcQbRYP3w3So3AhPwcjjUNRrCqYh--coCsUPj2QaRKBiz6asN0S5zebI0roxw-dWlDKyP90gVPidtnKee8x5arzRoBk-TeQuin87slyNQkSQ0jU7DwVK6IDIXa_L8PM5eWv3nogfKgqwA_TJWM-5_vXB9d8DPB9jg64
+W/GDataClient( 4263): Unable to execute HTTP request.java.net.UnknownHostException: Unable to resolve host "android.clients.google.com": No address associated with hostname
+W/SubscribedFeeds( 4263): Soft failure: java.net.UnknownHostException: Unable to resolve host "android.clients.google.com": No address associated with hostname
+I/AccountTypeManager( 6778): Adding account type = com.android.contacts.model.account.ExternalAccountType@2f530343 in the cache
+W/ResourceType( 6778): For resource 0x7f0f0002, entry index(2) is beyond type entryCount(2)
+W/ResourceType( 6778): Failure getting entry for 0x7f0f0002 (t=14 e=2) (error -75)
+W/ResourceType( 6778): For resource 0x7f0f0002, entry index(2) is beyond type entryCount(2)
+W/ResourceType( 6778): Failure getting entry for 0x7f0f0002 (t=14 e=2) (error -75)
+I/AccountTypeManager( 6778): Adding account type = com.android.contacts.model.account.ExternalAccountType@344baf9 in the cache
+I/AccountTypeManager( 6778): Adding account type = com.android.contacts.model.account.ExchangeAccountType@2ad1aa3e in the cache
+I/SimFactoryManager( 6778): Get SIM state from SIM factory manager: 5,For slotId:-1
+I/AccountTypeManager( 6778): Adding account type = com.android.contacts.hap.sim.advanced.AdvancedSimAccountType@311f18e9 in the cache
+W/AccountTypeManager( 6778): No authenticator found for type=com.android.huawei.secondsim, ignoring it.
+I/AccountTypeManager( 6778): Adding account type = com.android.contacts.model.account.ExternalAccountType@3b8035ec in the cache
+W/ResourceType( 6778): Failure getting entry for 0x7f181069 (t=23 e=4201) (error -2147483647)
+W/ResourceType( 6778): Failure getting entry for 0x7f181069 (t=23 e=4201) (error -2147483647)
+W/ResourceType( 6778): Failure getting entry for 0x7f18106a (t=23 e=4202) (error -2147483647)
+W/ResourceType( 6778): Failure getting entry for 0x7f18106b (t=23 e=4203) (error -2147483647)
+I/AccountTypeManager( 6778): Adding account type = com.android.contacts.model.account.ExternalAccountType@133a2c4a in the cache
+W/ResourceType( 6778): For resource 0x7f020412, entry index(1042) is beyond type entryCount(769)
+W/ResourceType( 6778): Failure getting entry for 0x7f020412 (t=1 e=1042) (error -75)
+W/ResourceType( 6778): For resource 0x7f020412, entry index(1042) is beyond type entryCount(769)
+W/ResourceType( 6778): Failure getting entry for 0x7f020412 (t=1 e=1042) (error -75)
+I/AccountTypeManager( 6778): Adding account type = com.android.contacts.model.account.ExternalAccountType@1030c4d8 in the cache
+I/AccountTypeManager( 6778): Adding account type = com.android.contacts.model.account.GoogleAccountType@17cdd031 in the cache
+I/PhoneStatusBar( 3200): shouldTranslucent:true
+E/ExternalAccountType( 6778): Unsupported attribute readOnly
+I/AccountTypeManager( 6778): AccountManager, account size is: 7
+I/AccountTypeManager( 6778): Loaded meta-data for 9 account types, 7 accounts in 239ms(wall) 88ms(cpu)
+I/PhoneStatusBar( 3200): shouldTranslucent:true
+I/MQoS    ( 2912): onSignal: mSubId=0,currDataSubID=0
+I/MQoS    ( 2912): received cell-signal:5
+I/AudioPolicyManager( 2544): stopOutput() output 2, stream 3, session 17
+I/AudioPolicyManager( 2544): getNewOutputDevice() selected device 0
+I/AudioPolicyManager( 2544): setOutputDevice() output 2 device 0x0000 delayMs 40
+I/AudioPolicyManager( 2544): setOutputDevice() prevDevice 0x0002
+I/AudioPolicyManager( 2544): isStreamActive() stream 3 inPastMs 5000
+I/AudioPolicyManager( 2544): setOutputDevice() setting same device 0x0000 or null device for output 2
+I/AudioPolicyManager( 2544): isStreamActive() stream 3 inPastMs 5000
+I/AudioPolicyManager( 2544): isStreamActive() stream 3 inPastMs 5000
+I/MediaPlayerFactory( 2544): filePath /storage/emulated/0/kivy/pub/audio/disco_dancing.wav!
+E/MediaPlayerFactory( 2544):  create StagefrightPlayer
+E/MediaPlayer( 8731): Should have subtitle controller already set
+I/str_params( 2544): key: 'mode' value: ''
+I/AwesomePlayer( 2544): [isLowPowerMode] isLowPowerApk[0]
+I/AwesomePlayer( 2544): is not Low Power Apk.
+I/AwesomePlayer( 2544): create AudioPlayer
+W/audio_a2dp_hw( 2544): adev_set_parameters: WARNING: set param called even when stream out is null
+I/AudioPolicyManager( 2544): getOutput() stream 3, samplingRate 0, format 0, channelMask 3, flags 0
+W/audio_a2dp_hw( 2544): adev_set_parameters: WARNING: set param called even when stream out is null
+I/AudioPolicyManager( 2544): getOutput() stream 3, samplingRate 0, format 0, channelMask 3, flags 0
+I/AudioPolicyManager( 2544): getOutput() stream 3, samplingRate 44100, format 1, channelMask 3, flags 0
+I/AudioPolicyManager( 2544): getOutput() stream 3, samplingRate 0, format 0, channelMask 3, flags 0
+I/AudioPolicyManager( 2544): startOutput() output 2, stream 3, session 17
+I/AudioPolicyManager( 2544): getNewOutputDevice() selected device 2
+I/AudioPolicyManager( 2544): isStreamActive() stream 3 inPastMs 0
+I/AudioPolicyManager( 2544): setOutputDevice() output 2 device 0x0002 delayMs 0
+I/AudioPolicyManager( 2544): setOutputDevice() prevDevice 0x0002
+I/AudioPolicyManager( 2544): isStreamActive() stream 3 inPastMs 5000
+I/AudioPolicyManager( 2544): setOutputDevice() setting same device 0x0002 or null device for output 2
+I/audio_hw_primary( 2544): check_device_change return 1
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): checkAndSetVolume: index 5 output 2 device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): checkAndSetVolume: index 0 output 2 device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): checkAndSetVolume: index 0 output 2 device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): checkAndSetVolume: index 2 output 2 device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): checkAndSetVolume: index 1 output 2 device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): checkAndSetVolume: index 0 output 2 device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): checkAndSetVolume: index 7 output 2 device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): checkAndSetVolume: index 7 output 2 device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): checkAndSetVolume: index 0 output 2 device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): checkAndSetVolume: index 2 output 2 device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): checkAndSetVolume: index 11 output 2 device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): checkAndSetVolume: index 2 output 2 device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): isStreamActive() stream 3 inPastMs 5000
+I/AudioPolicyManager( 2544): isStreamActive() stream 3 inPastMs 5000
+E/HsmCoreServiceImpl( 2912): onTransact in code is: 102
+I/MediaProcessHandler( 2912): processOp opType: 0, uid: 10096, pid: 8731
+I/PhoneStatusBar( 3200): shouldTranslucent:true
+I/ActivityManager( 2912): filter receiver for action = com.android.systemui.recent.action.PRELOAD
+I/PhoneStatusBar( 3200): shouldTranslucent:true
+I/art     ( 3200): Background partial concurrent mark sweep GC freed 43087(2MB) AllocSpace objects, 15(8MB) LOS objects, 40% free, 21MB/36MB, paused 7.675ms total 134.885ms
+I/python  ( 8731): [INFO              ] [Android     ] Must go into sleep mode, check the app
+I/python  ( 8731): [INFO              ] [Android     ] App doesn't support pause mode, stop.
+I/python  ( 8731): [INFO              ] [Base        ] Leaving application in progress...
+I/python  ( 8731): Python for android ended.
+I/art     ( 8731): System.exit called, status: 0
+I/AndroidRuntime( 8731): VM exiting with result code 0, cleanup skipped.
+E/WifiStateMachine( 2912):  ConnectedState !CMD_RSSI_POLL 9 0 "SPARK-47A2ZV" b0:e5:ed:3e:35:d4 rssi=-60 f=2412 sc=100 link=72 tx=82.1, 0.0, 0.0  rx=106.1 bcn=0 [on:0 tx:0 rx:0 period:3003] from screen [on:0 period:-1837803308] gl hn u24 rssi=-55 ag=0 hr ticks 0,0,4 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+E/WifiStateMachine( 2912):  L2ConnectedState !CMD_RSSI_POLL 9 0 "SPARK-47A2ZV" b0:e5:ed:3e:35:d4 rssi=-60 f=2412 sc=100 link=72 tx=82.1, 0.0, 0.0  rx=106.1 bcn=0 [on:0 tx:0 rx:0 period:1] from screen [on:0 period:-1837803307] gl hn u24 rssi=-55 ag=0 hr ticks 0,0,4 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+W/AudioFlinger( 2544): session id 17 not found for pid 8731
+E/WifiStateMachine( 2912): fetchRssiLinkSpeedAndFrequencyNative rssi=-61 linkspeed=72 SSID="SPARK-47A2ZV"
+E/WifiStateMachine( 2912): calculateWifiScore freq=2412 speed=72 score=100 highRSSI  -> txbadrate=0.00 txgoodrate=70.07 txretriesrate=0.00 rxrate=93.55 userTriggerdPenalty0
+E/WifiStateMachine( 2912):  good link -> stuck count =0
+E/WifiStateMachine( 2912):  badRSSI count0 lowRSSI count0 --> score 60
+E/WifiStateMachine( 2912):  isHighRSSI       ---> score=65
+I/HwSystemManager( 3703): HoldService:uid:10096 pid:8731 died
+I/HwSystemManager( 3703): BgPowerManagerService:onProcessDied uid = 10096
+I/HwSystemManager( 3703): HoldService:oldVersionKey:10096,8731
+E/HsmCoreServiceImpl( 2912): onTransact in code is: 102
+I/MediaProcessHandler( 2912): processOp opType: 1, uid: 10096, pid: 8731
+I/AudioPolicyManager( 2544): stopOutput() output 2, stream 3, session 17
+I/AudioPolicyManager( 2544): getNewOutputDevice() selected device 0
+I/AudioPolicyManager( 2544): setOutputDevice() output 2 device 0x0000 delayMs 40
+I/AudioPolicyManager( 2544): setOutputDevice() prevDevice 0x0002
+I/AudioPolicyManager( 2544): isStreamActive() stream 3 inPastMs 5000
+I/AudioPolicyManager( 2544): setOutputDevice() setting same device 0x0000 or null device for output 2
+I/AudioPolicyManager( 2544): isStreamActive() stream 3 inPastMs 5000
+I/AudioPolicyManager( 2544): isStreamActive() stream 3 inPastMs 5000
+E/ZipFileCache( 3200): init failed when open zip file.
+E/ZipFileCache( 3200): init failed when open zip file.
+E/ZipFileCache( 3200): init failed when open zip file.
+E/ZipFileCache( 3200): init failed when open zip file.
+E/ZipFileCache( 3200): init failed when open zip file.
+I/HwLauncher( 3575): Launcher dismissDialog
+E/ZipFileCache( 3200): init failed when open zip file.
+I/HwLauncher( 3575): Launcher dismissDialog
+W/PGApi_client( 3463): recv actoionId = 10000, action = com.huawei.pgmng.PGAction@c62026f actionId =10000 pkg =com.android.systemui extend1 =33 extend2 = flag =3 type =1
+W/PGMiddleWare jhh( 3463): in handleAction method, action = 10000
+W/PGMiddleWare jhh( 3463): in handleAction, invoke client = com.huawei.pgmng.middleware.AudioEffectLowPowerImpl@2377816, action = com.huawei.pgmng.PGAction@c62026f actionId =10000 pkg =com.android.systemui extend1 =33 extend2 = flag =3 type =1
+I/AudioEffectLowPowerImpl jhh( 3463): jhh handle default mActionId = 10000, action = com.huawei.pgmng.PGAction@c62026f actionId =10000 pkg =com.android.systemui extend1 =33 extend2 = flag =3 type =1
+W/AudioEffectLowPowerImpl jhh( 3463): enter into DEFAULT_FRONT Scene.
+W/AudioEffectLowPowerImpl jhh( 3463): m2DGameFront = false, m3DGameFront = false, mMediaPerceptible = false, mMusicPerceptible = false
+W/AudioEffectLowPowerImpl jhh( 3463): mAudioActive = false, mMusicPerceptible = false
+W/AudioEffectLowPowerImpl jhh( 3463): return for smartPAOn and mLowAudioEffectEnable both = false
+I/HwAps   ( 3463): APS: enable: false
+I/ActivityManager( 2912): Displayed com.android.systemui/.recent.RecentsActivity: +153ms
+I/PhoneStatusBar( 3200): hw_status_bar_operators = false, setSystemUIVisibily(SHOW_OPERATOR = false)
+I/HwLauncher( 3575): Launcher dismissDialog
+W/RecentsPanelView( 3200): Memory text is not valid,can not split to double text 
+I/HwSystemManager( 3703): ProcessTrimService:huawei.intent.action.hsm_remove_pkg received, pkg name is org.kivy.pygame
+I/HwSystemManager( 3703): ProcessTrimService:begin trim single app
+I/HwSystemManager( 3703): ProcessManager:trimApps, before filter pkgList:[org.kivy.pygame]
+I/HwSystemManager( 3703): LauncherPredicate:get default launcher is null, set hwlauncher
+I/HwSystemManager( 3703): InputMethodStringPredicate:InputMethodStringPredicate :: inputMethods = [com.nuance.swype.emui, com.nuance.swype.input.HuaweiIME, com.android.inputmethod.latin]
+I/HwLauncher( 3575): Launcher dismissDialog
+W/System.err( 2912): java.lang.NullPointerException: Attempt to invoke virtual method 'int com.huawei.lcagent.client.LogCollectManager.getUserType()' on a null object reference
+W/System.err( 2912): 	at huawei.com.android.server.util.ReportTool.getUserType(ReportTool.java:86)
+I/HwSystemManager( 3703): MusicPlayingPredicate:doInbackground result: []
+W/System.err( 2912): 	at huawei.com.android.server.util.ReportTool.isBetaUser(ReportTool.java:73)
+W/System.err( 2912): 	at huawei.com.android.server.util.ReportTool.report(ReportTool.java:58)
+I/HwSystemManager( 3703): VisibleWidgetPredicate:item.name:: pkg = com.android.gallery3d
+I/HwSystemManager( 3703): VisibleWidgetPredicate:item.name:: pkg = com.android.calendar
+W/System.err( 2912): 	at huawei.com.android.server.util.UserBehaviourRecord.appExitRecord(UserBehaviourRecord.java:65)
+I/HwSystemManager( 3703): VisibleWidgetPredicate:item.name:: pkg = com.huawei.android.totemweather
+W/System.err( 2912): 	at com.android.server.am.ActivityManagerService.cleanUpRemovedTaskLocked(ActivityManagerService.java:9041)
+W/System.err( 2912): 	at com.android.server.am.ActivityManagerService.removeTaskByIdLocked(ActivityManagerService.java:9097)
+I/HwSystemManager( 3703): VisibleWidgetPredicate:item.name:: pkg = com.android.mediacenter
+I/HwSystemManager( 3703): VisibleWidgetPredicate:item.name:: pkg = com.google.android.googlequicksearchbox
+W/System.err( 2912): 	at com.android.server.am.ActivityManagerService.removeTask(ActivityManagerService.java:9113)
+W/System.err( 2912): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1887)
+W/System.err( 2912): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2723)
+W/System.err( 2912): 	at com.android.server.am.HwActivityManagerService.onTransact(HwActivityManagerService.java:226)
+W/System.err( 2912): 	at android.os.Binder.execTransact(Binder.java:446)
+E/ReportTools( 2912): This is not beta user build
+I/HwSystemManager( 3703): ProcessManager:trimApps, after filter pkgList:[org.kivy.pygame]
+I/HwSystemManager( 3703): ProcessManager:forcestopApp begin!! pkgs = [org.kivy.pygame]
+I/HwSystemManager( 3703): ProcessManager:forcestopApp : org.kivy.pygame
+I/HwSystemManager( 3703): BgPowerManagerService:onProcessDied uid = 10096
+I/HwSystemManager( 3703): HoldService:uid:10096 pid:8701 died
+I/HwSystemManager( 3703): HoldService:oldVersionKey:10096,8701
+E/HsmCoreServiceImpl( 2912): onTransact in code is: 102
+I/MediaProcessHandler( 2912): processOp opType: 1, uid: 10096, pid: 8701
+W/MediaProcessHandler( 2912): remove target not exist, maybe the UI process: uid: 10096, pid: 8701
+I/ActivityManager( 2912): filter receiver for action = android.intent.action.PACKAGE_RESTARTED
+I/HwSystemManager( 3703): ProcessManager:forcestopApp end, cost time:118 ,size = 1
+I/HwSystemManager( 3703): ProcessTrimService:end trim single app, cost time:127
+I/HwLauncher( 3575): Launcher  onWindowVisibilityChanged visibility = 4
+I/HwLauncher( 3575): DynamicIcon onWindowVisibilityChanged 4 - com.android.calendar
+I/HwLauncher( 3575): DynamicIcon onWindowVisibilityChanged 4 - com.android.deskclock
+I/HwLauncher( 3575): Launcher onStart()
+I/HwLauncher( 3575): Launcher dynamicIconsRegister
+I/HwLauncher( 3575): DynamicUpdater registerReceiver
+I/HwSystemManager( 3703): AppLockService:applock password not initial or function is closed
+I/HwLauncher( 3575): DynamicUpdater call updateFolder
+I/HwLauncher( 3575): DynamicIcon onResume  isvisible = false   mAttachedToWindow:true    mWindowVisible:falsecom.android.calendar
+I/HwLauncher( 3575): DynamicUpdater registerReceiver
+I/HwLauncher( 3575): DynamicUpdater call updateFolder
+I/HwLauncher( 3575): DynamicIcon onResume  isvisible = false   mAttachedToWindow:true    mWindowVisible:falsecom.android.deskclock
+I/HwLauncher( 3575): DynamicUpdater registerReceiver
+I/HwLauncher( 3575): DynamicUpdater call updateFolder
+I/HwLauncher( 3575): DynamicIcon onResume  isvisible = true   mAttachedToWindow:false    mWindowVisible:falsecom.huawei.android.totemweather
+I/HwLauncher( 3575): Launcher onResume()
+I/HwSystemManager( 3703): AppManager:getNetAppInfoFromDB cursor lenth = 1
+I/HwLauncher( 3575): Launcher doResumeWork()
+I/HwLauncher( 3575): DynamicIconData , getDrawableForDynamic begin, pkg = com.android.deskclock, picName = deskclock_bg
+I/HwLauncher( 3575): Launcher.MotionManager startMotionAppsReco 402
+I/HwLauncher( 3575): DynamicIconData , getDrawableForDynamic end, pkg = com.android.deskclock, picName = deskclock_bg
+I/HwLauncher( 3575): Launcher  onResume mIsToUninstallApp = false
+I/HwLauncher( 3575): DynamicIconData , getDrawableForDynamic begin, pkg = com.android.deskclock, picName = deskclock_bg
+I/HwLauncher( 3575): DynamicIconData , getDrawableForDynamic end, pkg = com.android.deskclock, picName = deskclock_bg
+I/PG Utils( 3575): acquire_providerpkg:[com.huawei.motionservice] pid:[]  maybe timeout , send to PG
+I/HwLauncher( 3575): DynamicIcon onVisibilityChanged 0 - com.android.calendar
+I/HwLauncher( 3575): DynamicIcon onVisibilityChanged 0 - com.android.deskclock
+I/HwLauncher( 3575): Launcher.Utilities createIconBitmap classname = null, sourceWidth = 114, sourceHeight = 114
+I/HwLauncher( 3575): Launcher  onWindowVisibilityChanged visibility = 0
+I/HwLauncher( 3575): DynamicIcon onWindowVisibilityChanged 0 - com.android.calendar
+I/HwLauncher( 3575): DynamicIcon onWindowVisibilityChanged 0 - com.android.deskclock
+I/HwLauncher( 3575): ClockDynamicUpdater clock update folder at ClockDynamicUpdater
+I/HwLauncher( 3575): DynamicUpdater updateBitmap end and send update message
+I/HwLauncher( 3575): WeatherDynamicUpdaterpositiveUpdate at WeatherDynamicUpdater
+I/HwLauncher( 3575): Launcher dismissDialog
+I/HwLauncher( 3575): DynamicUpdater call updateFolder
+I/PhoneStatusBar( 3200): hw_status_bar_operators = false, setSystemUIVisibily(SHOW_OPERATOR = false)
+W/MotionDetectionManager( 3575): startMotionAppsReco motionApps: 402 disabled
+W/HwLauncher( 3575): Launcher.MotionManager startMotionAppsReco service flg 402 is unavailable
+I/ActivityManager( 2912): filter receiver for action = com.huawei.android.action.AUTO_UPDATE_MYLOCATION
+I/HwLauncher( 3575): WeatherDynamicUpdaterreceive action = com.huawei.android.action.launcher_weather_icon_change
+I/HwLauncher( 3575): WeatherDynamicUpdaterreceiver data is int[] = [0, 0, 33, 8, 68, 8, 103, 8]
+I/HwLauncher( 3575):  stringArray[] [cloudy, num2, num4, tempc]
+W/PGApi_client( 3463): recv actoionId = 10010, action = com.huawei.pgmng.PGAction@33530b7c actionId =10010 pkg =com.huawei.android.launcher extend1 =35 extend2 = flag =3 type =1
+W/PGMiddleWare jhh( 3463): in handleAction method, action = 10010
+W/PGMiddleWare jhh( 3463): in handleAction, invoke client = com.huawei.pgmng.middleware.AudioEffectLowPowerImpl@2377816, action = com.huawei.pgmng.PGAction@33530b7c actionId =10010 pkg =com.huawei.android.launcher extend1 =35 extend2 = flag =3 type =1
+I/AudioEffectLowPowerImpl jhh( 3463): jhh handle default mActionId = 10010, action = com.huawei.pgmng.PGAction@33530b7c actionId =10010 pkg =com.huawei.android.launcher extend1 =35 extend2 = flag =3 type =1
+W/AudioEffectLowPowerImpl jhh( 3463): enter into the safetyguard Scene.
+W/AudioEffectLowPowerImpl jhh( 3463): m2DGameFront = false, m3DGameFront = false, mMediaPerceptible = false, mMusicPerceptible = false
+W/AudioEffectLowPowerImpl jhh( 3463): mAudioActive = false, mMusicPerceptible = false
+W/AudioEffectLowPowerImpl jhh( 3463): return for smartPAOn and mLowAudioEffectEnable both = false
+I/PhoneStatusBar( 3200): shouldTranslucent:true
+I/PhoneStatusBar( 3200): hw_status_bar_operators = false, setSystemUIVisibily(SHOW_OPERATOR = false)
+E/ZipFileCache( 3575): init failed when open zip file.
+I/HwLauncher( 3575): Launcher dismissDialog
+I/OAM     ( 2713): [check_file_size:402]/data/hwlogdir/wifi_log/wifi_log_1 log file beyond size=10240Byte, creat new file
+I/OAM     ( 2713): [rename_old_file:107]rename_old_file
+I/OAM     ( 2713): 
+I/KeyguardFingerprint.Validation( 3053): start
+I/HwLauncher( 3575): Launcher onPause()
+I/HwLauncher( 3575): Launcher.MotionManager stopMotionAppsReco 402
+I/HwLauncher( 3575): Launcher.MotionManager stopMotionAppsReco 403
+W/HwLauncher( 3575): Launcher.MotionManager stopMotionAppsReco service flg 402 is unavailable
+E/AuthenticationManager( 3053): AuthenticationManager open failed: the AuthenticationService is null
+W/KeyguardFingerprint.Utils( 3053): AuthenticationManager open return null
+I/KeyguardFingerprint.Validation( 3053): Fingerprint unlock is not enabled
+I/KeyguardViewMediator( 3053): fingerprint validation not started
+W/HwLauncher( 3575): Launcher.MotionManager stopMotionAppsReco service flg 403 is unavailable
+I/KeyguardFingerprint.Validation( 3053): start
+E/AuthenticationManager( 3053): AuthenticationManager open failed: the AuthenticationService is null
+W/KeyguardFingerprint.Utils( 3053): AuthenticationManager open return null
+I/KeyguardFingerprint.Validation( 3053): Fingerprint unlock is not enabled
+I/KeyguardViewMediator( 3053): fingerprint validation not started
+I/KeyguardViewManager( 3053):     wallpaper = android.graphics.drawable.BitmapDrawable@22fd27d5, mIsWallpaperClamp = true
+I/KeyguardViewManager( 3053): updateShowWallpaper = false
+E/KeyguardHostView( 3053): KeyguardHostView()
+I/HwLauncher( 3575): Launcher onStop()
+I/HwLauncher( 3575): Launcher dismissDialog
+I/HwLauncher( 3575): Launcher dynamicIconsUnregister
+I/HwLauncher( 3575): DynamicUpdater unregisterReceiver
+I/HwLauncher( 3575): DynamicIcon onPause  isvisible = true   mAttachedToWindow:true    mWindowVisible:truecom.android.calendar
+I/HwLauncher( 3575): DynamicUpdater unregisterReceiver
+E/ZipFileCache( 3053): init failed when open zip file.
+I/HwLauncher( 3575): DynamicIcon onPause  isvisible = true   mAttachedToWindow:true    mWindowVisible:truecom.android.deskclock
+I/HwLauncher( 3575): DynamicUpdater unregisterReceiver
+I/HwLauncher( 3575): DynamicIcon onPause  isvisible = true   mAttachedToWindow:false    mWindowVisible:falsecom.huawei.android.totemweather
+E/WifiStateMachine( 2912):  ConnectedState !CMD_SCREEN_STATE_CHANGED 0 0
+W/OpenGLRenderer( 3575): Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+W/OpenGLRenderer( 3575): Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+E/WifiStateMachine( 2912):  L2ConnectedState !CMD_SCREEN_STATE_CHANGED 0 0
+E/WifiStateMachine( 2912):  ConnectModeState !CMD_SCREEN_STATE_CHANGED 0 0
+E/WifiStateMachine( 2912):  DriverStartedState !CMD_SCREEN_STATE_CHANGED 0 0
+E/WifiStateMachine( 2912):  SupplicantStartedState !CMD_SCREEN_STATE_CHANGED 0 0
+E/WifiStateMachine( 2912):  DefaultState !CMD_SCREEN_STATE_CHANGED 0 0
+E/WifiStateMachine( 2912):  handleScreenStateChanged Enter: screenOn=false mCurrentScanAlarmMs = 20000 mUserWantsSuspendOpt=true state ConnectedState suppState:CompletedState
+E/ZipFileCache( 3053): init failed when open zip file.
+E/WifiStateMachine( 2912): setScanAlarm false period 20000 initial delay 0
+W/HwScreenOnProximityLock( 2912): releaseLock: return because sensor listener is held = false
+E/AbsClockView( 3053): In setFactory...
+E/HwClockView( 3053): In HwClockView...
+W/audio_a2dp_hw( 2544): adev_set_parameters: WARNING: set param called even when stream out is null
+E/WifiStateMachine( 2912):  ConnectedState CMD_ENABLE_RSSI_POLL 0 0
+E/WifiStateMachine( 2912):  L2ConnectedState CMD_ENABLE_RSSI_POLL 0 0
+E/WifiStateMachine( 2912):  ConnectedState CMD_SET_SUSPEND_OPT_ENABLED 1 0
+E/WifiStateMachine( 2912):  L2ConnectedState CMD_SET_SUSPEND_OPT_ENABLED 1 0
+E/WifiStateMachine( 2912):  ConnectModeState CMD_SET_SUSPEND_OPT_ENABLED 1 0
+E/WifiStateMachine( 2912):  DriverStartedState CMD_SET_SUSPEND_OPT_ENABLED 1 0
+E/native  ( 2912): do suspend true
+E/ZipFileCache( 3053): init failed when open zip file.
+E/ZipFileCache( 3053): init failed when open zip file.
+E/WifiStateMachine( 2912):  ConnectedState CMD_START_SCAN -1 -1 ic=10 proc(ms):7 dur:281 rssi=-61 f=2412 sc=100 link=72 tx=0.0, 0.0, 0.0  rx=0.0 fiv=30000 [on:0 tx:0 rx:0 period:2217] from screen [on:0 period:-1837801087]
+E/WifiStateMachine( 2912):  L2ConnectedState CMD_START_SCAN -1 -1 ic=10 proc(ms):8 dur:281 rssi=-61 f=2412 sc=100 link=72 tx=0.0, 0.0, 0.0  rx=0.0 fiv=30000 [on:0 tx:0 rx:0 period:1] from screen [on:0 period:-1837801086]
+E/WifiStateMachine( 2912): WifiStateMachine CMD_START_SCAN source -1 txSuccessRate=0.00 rxSuccessRate=0.00 targetRoamBSSID=b0:e5:ed:3e:35:d4 RSSI=-61
+I/wpa_supplicant( 3052): set current WIFI status to BT!
+I/wpa_supplicant( 3052): wlan0: CTRL-EVENT-SCAN-STARTED 
+E/WifiMonitor( 2912): WifiMonitor:wlan0 cnt=76 dispatchEvent: CTRL-EVENT-SCAN-STARTED 
+E/WifiMonitor( 2912): handleEvent 14  CTRL-EVENT-SCAN-STARTED 
+E/WifiMonitor( 2912): handleEvent unknown: 14  CTRL-EVENT-SCAN-STARTED 
+E/WifiStateMachine( 2912): [1,548,645,392,772 ms] noteScanstart no scan source
+W/Settings( 3053): Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+E/ZipFileCache( 3053): init failed when open zip file.
+E/ZipFileCache( 3053): init failed when open zip file.
+E/ZipFileCache( 3053): init failed when open zip file.
+E/ZipFileCache( 3053): init failed when open zip file.
+E/ZipFileCache( 3053): init failed when open zip file.
+E/ZipFileCache( 3053): init failed when open zip file.
+E/ZipFileCache( 3053): init failed when open zip file.
+I/TimeManager( 3200): receiver action = android.intent.action.SCREEN_OFF
+I/TimeManager( 3200): hand message 3
+I/HwLauncher( 3575): Launcher receiver screen off broadcast sendmessage true
+E/ZipFileCache( 3053): init failed when open zip file.
+I/HwSystemManager( 3703): BgPowerManagerService:MSG_SCREEN_OFF Received and mScreenOffTime :1548645392802 mScreenOffBatterylevel :113
+I/HwSystemManager( 3703): AppLockService:BroadcastReceiver, intent is null or applock function is closed!
+E/ZipFileCache( 3053): init failed when open zip file.
+E/ZipFileCache( 3053): init failed when open zip file.
+E/ZipFileCache( 3053): init failed when open zip file.
+E/ZipFileCache( 3053): init failed when open zip file.
+E/ZipFileCache( 3053): init failed when open zip file.
+E/ZipFileCache( 3053): init failed when open zip file.
+E/ZipFileCache( 3053): init failed when open zip file.
+E/ZipFileCache( 3053): init failed when open zip file.
+E/ZipFileCache( 3053): init failed when open zip file.
+E/ZipFileCache( 3053): init failed when open zip file.
+E/ZipFileCache( 3053): init failed when open zip file.
+E/ZipFileCache( 3053): init failed when open zip file.
+E/ZipFileCache( 3053): init failed when open zip file.
+W/ChimeraUtils( 4263): Non Chimera context
+I/HwSystemManager( 3703): MemCPUMonitor:MemCPUMonitor : STOP_MONITOR_MESSAGE.
+I/DiscoveryManager( 4263): Filter criteria(null) scannerFlags(0)
+E/ZipFileCache( 3053): init failed when open zip file.
+E/AbsClockView( 3053): In setFactory...
+E/HwClockView( 3053): In HwClockView...
+E/WifiStateMachine( 2912):  ConnectedState CMD_START_PACKET_FILTERING 0 0
+E/WifiStateMachine( 2912):  L2ConnectedState CMD_START_PACKET_FILTERING 0 0
+E/WifiStateMachine( 2912):  ConnectModeState CMD_START_PACKET_FILTERING 0 0
+E/WifiStateMachine( 2912):  DriverStartedState CMD_START_PACKET_FILTERING 0 0
+E/ZipFileCache( 3053): init failed when open zip file.
+E/ZipFileCache( 3053): init failed when open zip file.
+E/ZipFileCache( 3053): init failed when open zip file.
+I/HwLockScreenImpl( 3053): HwLockScreenImpl construct
+I/LockScreenCallbackImpl( 3053): LockScreenCallbackImpl init
+I/LockScreenCallbackImpl( 3053): initDoubleCard .. mIsMultiSimEnabled :false
+I/HwLockScreenImpl( 3053): init
+I/HwLockScreenImpl( 3053): loadMagazine
+E/ZipFileCache( 3053): init failed when open zip file.
+E/AbsClockView( 3053): In setFactory...
+E/HwClockView( 3053): In HwClockView...
+E/ZipFileCache( 3053): init failed when open zip file.
+E/ZipFileCache( 3053): init failed when open zip file.
+E/ZipFileCache( 3053): init failed when open zip file.
+E/ZipFileCache( 3053): init failed when open zip file.
+E/ZipFileCache( 3053): init failed when open zip file.
+E/ZipFileCache( 3053): init failed when open zip file.
+E/ZipFileCache( 3053): init failed when open zip file.
+E/ZipFileCache( 3053): init failed when open zip file.
+E/ZipFileCache( 3053): init failed when open zip file.
+E/ZipFileCache( 3053): init failed when open zip file.
+E/ZipFileCache( 3053): init failed when open zip file.
+E/ZipFileCache( 3053): init failed when open zip file.
+E/ZipFileCache( 3053): init failed when open zip file.
+E/ZipFileCache( 3053): init failed when open zip file.
+E/ZipFileCache( 3053): init failed when open zip file.
+E/ZipFileCache( 3053): init failed when open zip file.
+E/ZipFileCache( 3053): init failed when open zip file.
+E/AbsClockView( 3053): In setFactory...
+E/HwClockView( 3053): In HwClockView...
+E/ZipFileCache( 3053): init failed when open zip file.
+E/ZipFileCache( 3053): init failed when open zip file.
+W/Settings( 3053): Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+E/ZipFileCache( 3053): init failed when open zip file.
+E/ZipFileCache( 3053): init failed when open zip file.
+E/ZipFileCache( 3053): init failed when open zip file.
+E/ZipFileCache( 3053): init failed when open zip file.
+E/ZipFileCache( 3053): init failed when open zip file.
+E/ZipFileCache( 3053): init failed when open zip file.
+E/ZipFileCache( 3053): init failed when open zip file.
+E/ZipFileCache( 3053): init failed when open zip file.
+I/HwLockScreenImpl( 3053): keyguard transparent = true
+I/HwLockScreenImpl( 3053): onResume: 2
+I/LockScreenCallbackImpl( 3053): refreshLockScreenInfo
+I/LockScreenCallbackImpl( 3053): getSimState
+I/LockScreenCallbackImpl( 3053): traverseCardStatus : mUpdateMonitor.getSimState(0)=READY
+I/LockScreenCallbackImpl( 3053): getCurrentStatus simState=READY
+I/HwLockScreenImpl( 3053): onAttachedToWindow
+I/HwLockScreenImpl( 3053): setLayoutHeight hide widget
+E/ZipFileCache( 3053): init failed when open zip file.
+E/ZipFileCache( 3053): init failed when open zip file.
+I/LockScreenCallbackImpl( 3053): onTimeChanged
+I/LockScreenCallbackImpl( 3053): onRefreshCarrierInfo  plmn = nullspn=2degrees
+I/LockScreenCallbackImpl( 3053): .single card.onRefreshCarrierInfo..: 2degrees
+I/LockScreenCallbackImpl( 3053): onSimStateChanged single simState=READY
+I/LockScreenCallbackImpl( 3053): getCurrentStatus simState=READY
+I/LockScreenCallbackImpl( 3053): single card.onSimStateChanged..2degrees
+E/ZipFileCache( 3053): init failed when open zip file.
+I/WallpaperUtils( 3053): theme wallpaper=null
+I/WallpaperUtils( 3053): get wallpaper from WallpaperManager
+I/WallpaperUtils( 3053): view size=720x1280
+I/WallpaperUtils( 3053): isWallpaperClamp=true
+I/KeyguardUpdateMonitor( 3053): keyguard blur, dispatch set blur background : bitmap = android.graphics.Bitmap@2020f20
+I/HwMusicManager( 3053): registerMusicObserver context=com.android.keyguard.KeyguardService@168514fd
+I/HwMusic ( 3053): beginObserver mMediaController=null
+W/HwMusic ( 3053): findCurrentMediaPlayPackage sessions size is 0
+E/ZipFileCache( 3053): init failed when open zip file.
+I/KeyguardUpdateMonitor( 3053): keyguard blur, dispatch set blur background : bitmap = android.graphics.Bitmap@2020f20
+I/PG Utils( 3053): acquire_providerpkg:[com.android.providers.media] pid:[]  maybe timeout , send to PG
+I/HwUpdateMonitor( 3053): registerCallback com.android.huawei.hwlockscreen.HwLockScreenWeatherView$2@3834597f, callback size = 0
+W/HwLockScreenWeatherView( 3053): onWeatherChange : weatherInfo is null
+E/WeatherMonitor( 3053): getDispalyWeatherInfo : mWeatherDayInfo is null 
+W/HwLockScreenWeatherView( 3053): onWeatherChange : displayInfo is null!
+I/HwUpdateMonitor( 3053): registerMonitor
+I/wpa_supplicant( 3052): set current WIFI status to BT!
+E/WifiMonitor( 2912): WifiMonitor:wlan0 cnt=77 dispatchEvent: CTRL-EVENT-BSS-REMOVED 12 18:f1:45:a0:24:1f
+E/WifiMonitor( 2912): handleEvent 13  CTRL-EVENT-BSS-REMOVED 12 18:f1:45:a0:24:1f
+E/WifiMonitor( 2912): WifiMonitor:wlan0 cnt=78 dispatchEvent: CTRL-EVENT-BSS-REMOVED 10 94:10:3e:bf:7f:aa
+E/WifiMonitor( 2912): handleEvent 13  CTRL-EVENT-BSS-REMOVED 10 94:10:3e:bf:7f:aa
+E/WifiMonitor( 2912): WifiMonitor:wlan0 cnt=79 dispatchEvent: CTRL-EVENT-SCAN-RESULTS 
+E/WifiMonitor( 2912): handleEvent 4  CTRL-EVENT-SCAN-RESULTS 
+E/WifiStateMachine( 2912):  ConnectedState SCAN_RESULTS_EVENT 0 0 found=8 known=2 got=8 bcn=0
+E/WifiStateMachine( 2912):  L2ConnectedState SCAN_RESULTS_EVENT 0 0 found=8 known=2 got=8 bcn=0
+E/WifiStateMachine( 2912):  ConnectModeState SCAN_RESULTS_EVENT 0 0 found=8 known=2 got=8 bcn=0
+E/WifiStateMachine( 2912):  DriverStartedState SCAN_RESULTS_EVENT 0 0 found=8 known=2 got=8 bcn=0
+E/WifiStateMachine( 2912):  SupplicantStartedState SCAN_RESULTS_EVENT 0 0 found=8 known=2 got=8 bcn=0
+E/WifiStateMachine( 2912): [1,548,645,393,052 ms] noteScanEnd no scan source
+I/PG Utils( 3053): acquire_providerpkg:[com.huawei.android.totemweather] pid:[]  maybe timeout , send to PG
+E/WifiStateMachine( 2912): wifi setScanResults statecom.android.server.wifi.WifiStateMachine$ConnectedState@f6fd0d9 sup_state=COMPLETED debouncing=false
+E/WifiAutoJoinController ( 2912): SPARK-47A2ZV b0:e5:ed:3e:35:d4 rssi=-67 cap [WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS] is not scored
+E/WifiAutoJoinController ( 2912): LotsOfHugs2.4G c8:94:bb:63:bd:84 rssi=-65 cap [WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS] is not scored
+E/WifiAutoJoinController ( 2912): vodafone711BFB a4:91:b1:71:1b:fc rssi=-77 cap [WPA2-PSK-CCMP][WPS][ESS] is not scored
+E/WifiAutoJoinController ( 2912): SPARK-47A2ZV_EXT 78:d2:94:a0:8a:94 rssi=-52 cap [WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS] is not scored
+E/WifiAutoJoinController ( 2912): Kaddy_Shack_2.4GHz f0:43:47:a9:00:38 rssi=-87 cap [WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS] is not scored
+E/WifiAutoJoinController ( 2912): SPARK-PE9NDW bc:75:74:85:ef:a4 rssi=-87 cap [WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS] is not scored
+E/WifiAutoJoinController ( 2912): ageScanResultsOut delay 40000 size 8 now 1548645393057
+E/WifiAutoJoinController ( 2912): newSupplicantResults size=8 known=2 true
+E/WifiAutoJoinController ( 2912): attemptAutoJoin() status=bssid=b0:e5:ed:3e:35:d4
+E/WifiAutoJoinController ( 2912): ssid=SPARK-47A2ZV
+E/WifiAutoJoinController ( 2912): id=7
+E/WifiAutoJoinController ( 2912): mode=station
+E/WifiAutoJoinController ( 2912): pairwise_cipher=CCMP
+E/WifiAutoJoinController ( 2912): group_cipher=TKIP
+E/WifiAutoJoinController ( 2912): key_mgmt=WPA2-PSK
+E/WifiAutoJoinController ( 2912): wpa_state=COMPLETED
+E/WifiAutoJoinController ( 2912): ip_address=192.168.1.70
+E/WifiAutoJoinController ( 2912): p2p_device_address=48:3c:0c:62:aa:c2
+E/WifiAutoJoinController ( 2912): address=48:3c:0c:62:aa:c2
+E/WifiAutoJoinController ( 2912): uuid=5f16eaa6-edc0-5104-a9d9-ed5af9dc4164 split=12
+E/WifiAutoJoinController ( 2912): attemptAutoJoin() num recent config 1 current="SPARK-47A2ZV"WPA_PSK ---> suppNetId=7
+E/WifiAutoJoinController ( 2912): attemptAutoJoin good candidate seen, bumped hard -> status=0 "SPARK-47A2ZV"WPA_PSK rssi=(-67,-127) num=(1,0)
+E/WifiAutoJoinController ( 2912): attemptAutoJoin skip current candidate  7 key "SPARK-47A2ZV"WPA_PSK
+E/WifiAutoJoinController ( 2912): look up all configurations network done, candidate = null
+E/WifiAutoJoinController ( 2912): attemptRoam() BSSID is set b0:e5:ed:3e:35:d4 -> bail
+E/WifiAutoJoinController ( 2912): Done attemptAutoJoin status=0
+I/ActivityManager( 2912): filter receiver for action = android.net.wifi.SCAN_RESULTS
+I/System.out( 3543): BitString length 17
+I/System.out( 3543): MAC Addressb0:e5:ed:3e:35:d4
+I/System.out( 3543): BitString length 17
+I/System.out( 3543): MAC Addressc8:94:bb:63:bd:84
+I/System.out( 3543): BitString length 17
+I/System.out( 3543): MAC Addressa4:91:b1:71:1b:fc
+I/System.out( 3543): BitString length 17
+I/System.out( 3543): MAC Address78:d2:94:a0:8a:94
+I/System.out( 3543): BitString length 17
+I/System.out( 3543): MAC Addressf0:43:47:a9:00:38
+I/System.out( 3543): BitString length 17
+I/System.out( 3543): MAC Addressbc:75:74:85:ef:a4
+W/Settings( 3053): Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+W/Settings( 3053): Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+I/SUPL20_LocMan( 3543): Phone type:GSM
+W/Settings( 3053): Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+I/SUPL20_LocMan( 3543): Network Op Mnc= 24 MCC = 530
+I/SUPL20_LocMan( 3543):  cellInfo NetworkType:NOT RETERIVE,21
+I/SUPL20_SPIMESLP-SENDING( 3543): m_bPacket.length 489
+I/SUPL20_SPIMESLP-SENDING( 3543): bBrokenPipe = false
+W/Settings( 3053): Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+W/Settings( 3053): Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+W/Settings( 3053): Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+I/CameraLayout( 3053): onAttachedToWindow 
+I/UnderLayer( 3053): UnderLayer view
+I/HwNotification( 3053): mNotificationListener registerNotification
+I/MagazineUtils( 3053): is magazine unlock on, lockStyle = magazine
+I/MonteGrayView( 3053): keyguard blur, on set blur background : bitmap = android.graphics.Bitmap@2020f20, visibility = 0, mDrawableBlur = android.graphics.drawable.BitmapDrawable@3b2c517c
+I/HwLauncher( 3575): Launcher dismissDialog
+W/MonitorImpl( 3053): onPostExecute query database fail: com.android.huawei.hwlockscreen.monitor.WeatherMonitor@2e3ccce8
+I/KeyguardFingerprint.Validation( 3053): hasWindowFocus:true
+I/KeyguardFingerprint.Validation( 3053): start
+E/AuthenticationManager( 3053): AuthenticationManager open failed: the AuthenticationService is null
+W/KeyguardFingerprint.Utils( 3053): AuthenticationManager open return null
+I/KeyguardFingerprint.Validation( 3053): Fingerprint unlock is not enabled
+I/PhoneStatusBar( 3200): shouldTranslucent:true
+I/PhoneStatusBar( 3200): hw_status_bar_operators = false, setSystemUIVisibily(SHOW_OPERATOR = true)
+W/View    ( 3200): requestLayout() improperly called by com.android.systemui.statusbar.phone.IconMerger{10ddce25 V.E..... ......I. 0,0-108,50 #7f0d0086 app:id/notificationIcons} during layout: running second layout pass
+W/View    ( 3200): requestLayout() improperly called by com.android.systemui.statusbar.phone.IconMerger{10ddce25 V.E..... ......I. 0,0-108,50 #7f0d0086 app:id/notificationIcons} during second layout pass: posting in next frame
+W/RecentsPanelView( 3200): Memory text is not valid,can not split to double text 
+I/audio_hw_primary( 2544): do_out_standby standby: 0, out_device: 2
+E/WifiStateMachine( 2912):  ConnectedState CMD_RSSI_POLL 9 0 "SPARK-47A2ZV" b0:e5:ed:3e:35:d4 rssi=-61 f=2412 sc=100 link=72 tx=0.0, 0.0, 0.0  rx=0.0 bcn=0 [on:0 tx:0 rx:0 period:782] from screen [on:0 period:-1837800302] gl hn u24 rssi=-56 ag=0 hr ticks 0,0,4 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+E/WifiStateMachine( 2912):  L2ConnectedState CMD_RSSI_POLL 9 0 "SPARK-47A2ZV" b0:e5:ed:3e:35:d4 rssi=-61 f=2412 sc=100 link=72 tx=0.0, 0.0, 0.0  rx=0.0 bcn=0 [on:0 tx:0 rx:0 period:2] from screen [on:0 period:-1837800300] gl hn u24 rssi=-56 ag=0 hr ticks 0,0,4 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+I/audio_hw_primary( 2544): output_device_id is 0, output_route is null;input_source_id is 0, input_route is null.
+I/TFA9895_SPK( 2544): tfa9895 spk power off!
+I/dsp_common( 2544): dsp_common_control_algo:set device = 0
+I/dsp_common( 2544): dsp_common_control_algo:set device = 0
+I/wpa_supplicant( 3052): wlan0: HEART-BEAT-ACK: 24
+E/WifiMonitor( 2912): WifiMonitor:wlan0 cnt=80 dispatchEvent: HEART-BEAT-ACK: 24
+E/WifiStateMachine( 2912):  ConnectedState what:147506 0 0
+E/WifiStateMachine( 2912):  L2ConnectedState what:147506 0 0
+E/WifiStateMachine( 2912):  ConnectModeState what:147506 0 0
+E/WifiStateMachine( 2912):  DriverStartedState what:147506 0 0
+E/WifiStateMachine( 2912):  SupplicantStartedState what:147506 0 0
+I/MQoS    ( 2912): onSignal: mSubId=0,currDataSubID=0
+I/MQoS    ( 2912): received cell-signal:5
+I/HwSystemManager( 3703): BgPowerManagerService:onProcessDied uid = 10055
+I/HwSystemManager( 3703): HoldService:uid:10055 pid:8602 died
+I/HwSystemManager( 3703): HoldService:oldVersionKey:10055,8602
+E/HsmCoreServiceImpl( 2912): onTransact in code is: 102
+I/MediaProcessHandler( 2912): processOp opType: 1, uid: 10055, pid: 8602
+W/MediaProcessHandler( 2912): remove target not exist, maybe the UI process: uid: 10055, pid: 8602
+I/ActivityManager( 2912): filter receiver for action = android.intent.action.PACKAGE_RESTARTED
+I/AppsCleanUp( 3463): Clean Apps Num:1, clean type is 1
+W/AlarmAdapter( 3463): NoSuchMethod: setAlarmsPending 
+I/AlarmRestrict( 3463): [pending] net alarms
+I/Finsky  ( 6374): [83] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-scheduler_logging_store.db com.google.android.finsky.bo.ao@274dd056[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+I/HwSystemManager( 3703): BgPowerManagerService:BgPowerManagerSerivce plugged =2 currentThreshold = 0 mRawLevel = 4mLastRawLevel4
+I/HwSystemManager( 3703): BgPowerManagerService: mTimes = 31013 firstTime = 374928 firstmBatteryCapacity =113
+I/HwSystemManager( 3703): PowerManagementModel:setAlarmsPending appList = []###pending = true
+W/SyncManager( 2912): SyncManager manageSyncAlarmLocked SET_WAKE_ALARM
+E/Thermal-daemon( 2346): [charger_ic] temp_new :37  temp_old :38
+E/Thermal-daemon( 2346): Report temperature: [charger_ic] temp :37  report_threshold:1
+E/CheckinRequestProcessor( 4263): RetryTaskTag : Checkin failed: https://android.clients.google.com/checkin (fragment #0): java.net.UnknownHostException: Unable to resolve host "android.clients.google.com": No address associated with hostname
+I/ActivityManager( 2912): filter receiver for action = com.google.android.checkin.CHECKIN_COMPLETE
+I/Finsky  ( 6374): [1] com.google.android.finsky.scheduler.FirebaseJobDispatcherEngine$FirebaseJobDispatcherService.a(9): onFirebaseJobDispatcherWakeup
+I/WVCdm   ( 2544): CdmEngine::OpenSession
+I/WVCdm   ( 2544): Level3 Library Sep 25 2014 17:10:03
+W/WVCdm   ( 2544): Could not read /data/mediadrm/IDM1013/ay64.dat2: No such file or directory
+I/Finsky  ( 6374): [1] com.google.android.finsky.scheduler.ad.a(41): Scheduling fallback in 43199988 (absolute: 43616971)
+W/WVCdm   ( 2544): Could not load liboemcrypto.so. Falling Back to L3.  dlopen failed: library "liboemcrypto.so" not found
+I/Finsky  ( 6374): [1] com.google.android.finsky.scheduler.ad.a(41): Scheduling fallback in 64799977 (absolute: 65216983)
+I/Finsky  ( 6374): [1] com.google.android.finsky.scheduler.ag.a(211): Will halt after 600000
+I/WVCdm   ( 2544): CdmEngine::QueryKeyControlInfo
+W/WVCdm   ( 2544): BufferReader::Read<T> : Failure during parse: Not enough bytes (4)
+W/WVCdm   ( 2544): CdmEngine::ExtractWidevinePssh: Unable to read PSSH atom size
+I/WVCdm   ( 2544): CdmEngine::GenerateKeyRequest
+E/Thermal-daemon( 2346): [ap] temp_new :36  temp_old :37
+E/Thermal-daemon( 2346): Report temperature: [ap] temp :36  report_threshold:1
+I/wpa_supplicant( 3052): wlan0: HEART-BEAT-ACK: 25
+E/WifiMonitor( 2912): WifiMonitor:wlan0 cnt=81 dispatchEvent: HEART-BEAT-ACK: 25
+E/WifiStateMachine( 2912):  ConnectedState what:147506 0 0
+E/WifiStateMachine( 2912):  L2ConnectedState what:147506 0 0
+E/WifiStateMachine( 2912):  ConnectModeState what:147506 0 0
+E/WifiStateMachine( 2912):  DriverStartedState what:147506 0 0
+E/WifiStateMachine( 2912):  SupplicantStartedState what:147506 0 0
+I/WVCdm   ( 2544): CdmEngine::CloseSession
+I/WVCdm   ( 2544): L3 Terminate.
+I/Finsky  ( 6374): [83] com.google.android.finsky.bo.an.run(6): Stats for Executor: BlockingExecutor com.google.android.finsky.bo.ao@fa73fc9[Running, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 9]
+I/Finsky  ( 6374): [83] com.google.android.finsky.bo.an.run(6): Stats for Executor: LightweightExecutor com.google.android.finsky.bo.ao@3e1b96ce[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 56]
+I/Finsky  ( 6374): [83] com.google.android.finsky.bo.an.run(6): Stats for Executor: bgExecutor com.google.android.finsky.bo.ao@b0629ef[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 12]
+I/Finsky  ( 6374): [83] com.google.android.finsky.bo.an.run(6): Stats for Executor: SimChangeExecutor com.google.android.finsky.bo.ao@3040dcfc[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 4]
+E/WifiStateMachine( 2912):  ConnectedState what:131272 4 0
+E/WifiStateMachine( 2912):  L2ConnectedState what:131272 4 0
+E/WifiStateMachine( 2912):  ConnectModeState what:131272 4 0
+E/WifiStateMachine( 2912):  DriverStartedState what:131272 4 0
+E/WifiStateMachine( 2912):  SupplicantStartedState what:131272 4 0
+E/WifiStateMachine( 2912):  DefaultState what:131272 4 0
+E/WifiStateMachine( 2912): Error! unhandled message{ when=-15ms what=131272 arg1=4 target=com.android.internal.util.StateMachine$SmHandler }
+I/Finsky  ( 6374): [83] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-split_install_service com.google.android.finsky.bo.ao@35db0f85[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 1]
+I/Finsky  ( 6374): [83] com.google.android.finsky.bo.an.run(6): Stats for Executor: SplitInstallBackgroundThread com.google.android.finsky.bo.ao@32de51da[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+I/Finsky  ( 6374): [83] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-install_service com.google.android.finsky.bo.ao@e35760b[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+I/Finsky  ( 6374): [83] com.google.android.finsky.bo.an.run(6): Stats for Executor: InstallBackgroundThread com.google.android.finsky.bo.ao@2e3ccce8[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+I/Finsky  ( 6374): [83] com.google.android.finsky.bo.an.run(6): Stats for Executor: StorageAwareDownloadServiceManagerSpaceChecker com.google.android.finsky.bo.ao@19c21f01[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+I/Finsky  ( 6374): [83] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-scheduler com.google.android.finsky.bo.ao@bc367e7[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 10]
+I/Finsky  ( 6374): [83] com.google.android.finsky.bo.an.run(6): Stats for Executor: InstallBackgroundThread com.google.android.finsky.bo.ao@f85cf94[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+I/Finsky  ( 6374): [83] com.google.android.finsky.bo.an.run(6): Stats for Executor: InstallBackgroundThread com.google.android.finsky.bo.ao@1b0aa3d[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+I/wpa_supplicant( 3052): wlan0: HEART-BEAT-ACK: 26
+E/WifiMonitor( 2912): WifiMonitor:wlan0 cnt=82 dispatchEvent: HEART-BEAT-ACK: 26
+E/WifiStateMachine( 2912):  ConnectedState what:147506 0 0
+E/WifiStateMachine( 2912):  L2ConnectedState what:147506 0 0
+E/WifiStateMachine( 2912):  ConnectModeState what:147506 0 0
+E/WifiStateMachine( 2912):  DriverStartedState what:147506 0 0
+E/WifiStateMachine( 2912):  SupplicantStartedState what:147506 0 0
+E/Thermal-daemon( 2346): [charger_ic] temp_new :36  temp_old :37
+E/Thermal-daemon( 2346): Report temperature: [charger_ic] temp :36  report_threshold:1
+E/Thermal-daemon( 2346): [ap] temp_new :35  temp_old :36
+E/Thermal-daemon( 2346): Report temperature: [ap] temp :35  report_threshold:1
+I/HwSystemManager( 3703): BgPowerManagerService:BgPowerManagerSerivce plugged =2 currentThreshold = 0 mRawLevel = 4mLastRawLevel4
+I/HwSystemManager( 3703): BgPowerManagerService: mTimes = 60006 firstTime = 374928 firstmBatteryCapacity =113
+I/HwSystemManager( 3703): BgPowerManagerService:BgPowerManagerSerivce plugged =2 currentThreshold = 0 mRawLevel = 4mLastRawLevel4
+I/HwSystemManager( 3703): BgPowerManagerService: mTimes = 61098 firstTime = 374928 firstmBatteryCapacity =113
+I/Finsky  ( 6374): [1] com.google.android.finsky.scheduler.al.handleMessage(16): DeviceState: DeviceState{currentTime=1548645428789, isCharging=true, isIdle=true, netAny=false, netNotRoaming=false, netUnmetered=false}
+I/Finsky  ( 6374): [165] com.google.android.finsky.scheduler.bp.b(89): Jobs in database: 1-1337 24-77777777 26-1414141414 28--559038737 
+I/Finsky  ( 6374): [1] com.google.android.finsky.scheduler.ag.a(59): Running job: 24-77777777
+I/Finsky  ( 6374): [1] com.google.android.finsky.scheduler.ag.a(139): Job 24-77777777 finished
+I/Finsky  ( 6374): [1] com.google.android.finsky.scheduler.ag.a(105): RunningQueue size: 0, PendingQueue size: 0
+I/Finsky  ( 6374): [1] com.google.android.finsky.scheduler.al.handleMessage(42): Executor finished
+W/GLSUser ( 3952): [AppCertManager] IOException while requesting key: 
+I/Finsky  ( 6374): [1] com.google.android.finsky.scheduler.bp.b(89): Jobs in database: 1-1337 26-1414141414 28--559038737 
+I/Finsky  ( 6374): [1] com.google.android.finsky.scheduler.k.a(69): ConstraintMapping: 1-1337, 28--559038737,  -> L: 0ms, D: 61504680ms, C: false, I: false, N: 1
+I/Finsky  ( 6374): [1] com.google.android.finsky.scheduler.k.a(69): ConstraintMapping: 26-1414141414,  -> L: 10766487ms, D: 11666487ms, C: false, I: false, N: 0
+I/ActivityManager( 2912): filter receiver for action = com.google.android.gms.gcm.ACTION_SCHEDULE
+I/Finsky  ( 6374): [1] com.google.android.finsky.scheduler.FirebaseJobDispatcherEngine.a(29): Scheduling job with id: Id: job-9000, Constraints: [2], Trigger: Min: 30 (s), Max: 61504 (s)
+I/ActivityManager( 2912): filter receiver for action = com.google.android.gms.gcm.ACTION_SCHEDULE
+I/ActivityManager( 2912): filter receiver for action = com.google.android.gms.gcm.ACTION_SCHEDULE
+I/Finsky  ( 6374): [1] com.google.android.finsky.scheduler.FirebaseJobDispatcherEngine.a(29): Scheduling job with id: Id: job-9001, Constraints: [], Trigger: Min: 10766 (s), Max: 11666 (s)
+I/ActivityManager( 2912): filter receiver for action = com.google.android.gms.gcm.ACTION_SCHEDULE
+I/ActivityManager( 2912): filter receiver for action = com.google.android.gms.gcm.ACTION_SCHEDULE
+I/Finsky  ( 6374): [1] com.google.android.finsky.scheduler.FirebaseJobDispatcherEngine$FirebaseJobDispatcherService.a(9): onFirebaseJobDispatcherWakeup
+I/Finsky  ( 6374): [1] com.google.android.finsky.scheduler.ad.a(41): Scheduling fallback in 43199982 (absolute: 43637282)
+I/Finsky  ( 6374): [1] com.google.android.finsky.scheduler.ad.a(41): Scheduling fallback in 64799969 (absolute: 65237301)
+I/Finsky  ( 6374): [1] com.google.android.finsky.scheduler.ag.a(211): Will halt after 600000
+I/Finsky  ( 6374): [1] com.google.android.finsky.scheduler.al.handleMessage(16): DeviceState: DeviceState{currentTime=1548645429075, isCharging=true, isIdle=true, netAny=false, netNotRoaming=false, netUnmetered=false}
+I/Finsky  ( 6374): [165] com.google.android.finsky.scheduler.bp.b(89): Jobs in database: 1-1337 26-1414141414 28--559038737 
+I/Finsky  ( 6374): [1] com.google.android.finsky.scheduler.ag.a(105): RunningQueue size: 0, PendingQueue size: 0
+I/Finsky  ( 6374): [1] com.google.android.finsky.scheduler.al.handleMessage(42): Executor finished
+E/NetworkScheduler.ATC( 3952): Received callback from client for task that is already complete. ComponentInfo{com.android.vending/com.firebase.jobdispatcher.GooglePlayReceiver} job-9001
+I/Finsky  ( 6374): [1] com.google.android.finsky.scheduler.bp.b(89): Jobs in database: 1-1337 26-1414141414 28--559038737 
+W/Finsky  ( 6374): [1] com.google.android.finsky.scheduler.cr.run(7): No real network when expected
+I/Finsky  ( 6374): [1] com.google.android.finsky.scheduler.k.a(69): ConstraintMapping: 1-1337, 28--559038737,  -> L: 0ms, D: 61504540ms, C: false, I: false, N: 1
+I/Finsky  ( 6374): [1] com.google.android.finsky.scheduler.k.a(69): ConstraintMapping: 26-1414141414,  -> L: 10766343ms, D: 11666343ms, C: false, I: false, N: 0
+I/ActivityManager( 2912): filter receiver for action = com.google.android.gms.gcm.ACTION_SCHEDULE
+I/Finsky  ( 6374): [1] com.google.android.finsky.scheduler.FirebaseJobDispatcherEngine.a(91): No real network when expected for job 9000. Delaying: 900000
+I/Finsky  ( 6374): [1] com.google.android.finsky.scheduler.FirebaseJobDispatcherEngine.a(29): Scheduling job with id: Id: job-9000, Constraints: [2], Trigger: Min: 900 (s), Max: 61504 (s)
+I/ActivityManager( 2912): filter receiver for action = com.google.android.gms.gcm.ACTION_SCHEDULE
+E/NetworkScheduler.ATC( 3952): Called cancelTask for already completed task com.android.vending/com.firebase.jobdispatcher.GooglePlayReceiver{u=0 tag="job-9001" trigger=window{start=30s,end=61774s,earliest=-240s,latest=61503s} requirements=[NET_CONNECTED] attributes=[] scheduled=-270s last_run=0s jid=N/A status=ACTIVE retries=0 client_lib=FIREBASE_JOB_DISPATCHER-1} :RESCHEDULED
+I/ActivityManager( 2912): filter receiver for action = com.google.android.gms.gcm.ACTION_SCHEDULE
+I/Finsky  ( 6374): [1] com.google.android.finsky.scheduler.FirebaseJobDispatcherEngine.a(29): Scheduling job with id: Id: job-9001, Constraints: [], Trigger: Min: 10766 (s), Max: 11666 (s)
+I/ActivityManager( 2912): filter receiver for action = com.google.android.gms.gcm.ACTION_SCHEDULE
+I/ActivityManager( 2912): filter receiver for action = com.google.android.gms.gcm.ACTION_SCHEDULE
+E/HWPowerManger_JNI( 2912): strTmp=256,0,0,0,256,0,0,0,256
+I/HwLockScreenImpl( 3053): onResume: 1
+I/LockScreenCallbackImpl( 3053): refreshLockScreenInfo
+I/LockScreenCallbackImpl( 3053): getSimState
+I/LockScreenCallbackImpl( 3053): traverseCardStatus : mUpdateMonitor.getSimState(0)=READY
+I/LockScreenCallbackImpl( 3053): getCurrentStatus simState=READY
+E/WifiStateMachine( 2912):  ConnectedState CMD_SCREEN_STATE_CHANGED 1 0
+E/WifiStateMachine( 2912):  L2ConnectedState CMD_SCREEN_STATE_CHANGED 1 0
+E/WifiStateMachine( 2912):  ConnectModeState CMD_SCREEN_STATE_CHANGED 1 0
+E/WifiStateMachine( 2912):  DriverStartedState CMD_SCREEN_STATE_CHANGED 1 0
+E/WifiStateMachine( 2912):  SupplicantStartedState CMD_SCREEN_STATE_CHANGED 1 0
+E/WifiStateMachine( 2912):  DefaultState CMD_SCREEN_STATE_CHANGED 1 0
+E/WifiStateMachine( 2912):  handleScreenStateChanged Enter: screenOn=true mCurrentScanAlarmMs = 20000 mUserWantsSuspendOpt=true state ConnectedState suppState:CompletedState
+E/WifiStateMachine( 2912): setScanAlarm true period 20000 initial delay 200
+W/audio_a2dp_hw( 2544): adev_set_parameters: WARNING: set param called even when stream out is null
+E/WifiStateMachine( 2912):  ConnectedState !CMD_ENABLE_RSSI_POLL 1 0
+E/WifiStateMachine( 2912):  L2ConnectedState !CMD_ENABLE_RSSI_POLL 1 0
+I/MQoS    ( 2912): onSignal: mSubId=0,currDataSubID=0
+I/MQoS    ( 2912): received cell-signal:5
+E/WifiStateMachine( 2912): fetchRssiLinkSpeedAndFrequencyNative rssi=-62 linkspeed=72 SSID="SPARK-47A2ZV"
+E/WifiStateMachine( 2912):  ConnectedState !CMD_ENABLE_ALL_NETWORKS 0 0
+E/WifiStateMachine( 2912):  L2ConnectedState !CMD_ENABLE_ALL_NETWORKS 0 0
+E/WifiStateMachine( 2912):  ConnectModeState !CMD_ENABLE_ALL_NETWORKS 0 0
+E/WifiStateMachine( 2912):  ConnectedState !CMD_SET_SUSPEND_OPT_ENABLED 0 0
+E/WifiStateMachine( 2912):  L2ConnectedState !CMD_SET_SUSPEND_OPT_ENABLED 0 0
+E/WifiStateMachine( 2912):  ConnectModeState !CMD_SET_SUSPEND_OPT_ENABLED 0 0
+E/WifiStateMachine( 2912):  DriverStartedState !CMD_SET_SUSPEND_OPT_ENABLED 0 0
+E/native  ( 2912): do suspend false
+E/WifiStateMachine( 2912):  ConnectedState !CMD_CLEAR_BLACKLIST 0 0
+E/WifiStateMachine( 2912):  L2ConnectedState !CMD_CLEAR_BLACKLIST 0 0
+E/WifiStateMachine( 2912):  ConnectModeState !CMD_CLEAR_BLACKLIST 0 0
+E/TEST-APN( 3515): query for APN: check-permission succ 
+E/TEST-APN( 3515): Telephony query SQL: SELECT * FROM siminfo WHERE (sim_id=?)
+E/ZipFileCache( 3200): init failed when open zip file.
+E/WifiStateMachine( 2912):  ConnectedState !CMD_START_SCAN -2 -2 ic=11 proc(ms):2 dur:280 rssi=-62 f=2412 sc=100 link=72 tx=0.0, 0.0, 0.0  rx=0.0 fiv=20000 [on:0 tx:0 rx:0 period:36692] from screen [on:0 period:-1837763607]
+E/WifiStateMachine( 2912):  L2ConnectedState !CMD_START_SCAN -2 -2 ic=11 proc(ms):2 dur:280 rssi=-62 f=2412 sc=100 link=72 tx=0.0, 0.0, 0.0  rx=0.0 fiv=20000 [on:0 tx:0 rx:0 period:1] from screen [on:0 period:-1837763606]
+E/WifiStateMachine( 2912): WifiStateMachine CMD_START_SCAN source -2 txSuccessRate=0.00 rxSuccessRate=0.00 targetRoamBSSID=b0:e5:ed:3e:35:d4 RSSI=-62
+E/WifiStateMachine( 2912): WifiStateMachine CMD_START_SCAN with age=75627 interval=20000 maxinterval=300000
+E/WifiStateMachine( 2912): WifiStateMachine CMD_START_SCAN try full band scan age=75627 interval=20000 maxinterval=300000
+E/WifiStateMachine( 2912): WifiStateMachine CMD_START_SCAN full=true
+E/WifiStateMachine( 2912): WifiStateMachine CMD_START_SCAN bump interval =30000
+I/wpa_supplicant( 3052): set current WIFI status to BT!
+I/wpa_supplicant( 3052): wlan0: CTRL-EVENT-SCAN-STARTED 
+E/WifiMonitor( 2912): WifiMonitor:wlan0 cnt=83 dispatchEvent: CTRL-EVENT-SCAN-STARTED 
+E/WifiMonitor( 2912): handleEvent 14  CTRL-EVENT-SCAN-STARTED 
+E/WifiMonitor( 2912): handleEvent unknown: 14  CTRL-EVENT-SCAN-STARTED 
+E/WifiStateMachine( 2912): [1,548,645,430,252 ms] noteScanstart no scan source
+I/OAM     ( 2713): [check_file_size:402]/data/hwlogdir/wifi_log/wifi_log_1 log file beyond size=10240Byte, creat new file
+I/OAM     ( 2713): [rename_old_file:107]rename_old_file
+I/OAM     ( 2713): 
+I/TimeManager( 3200): receiver action = android.intent.action.SCREEN_ON
+I/TimeManager( 3200): hand message 2
+I/TimeManager( 3200): notify time change. size = 2
+I/TimeLayout( 3200): time = 16:17
+I/TimeLayout( 3200): updateDate date = 28/01/2019
+I/TimeLayout( 3200): weekDay = Monday
+I/TimeManager( 3200): send message delay millis = 50500 ms
+E/ZipFileCache( 3575): init failed when open zip file.
+I/wpa_supplicant( 3052): set current WIFI status to BT!
+E/WifiMonitor( 2912): WifiMonitor:wlan0 cnt=84 dispatchEvent: CTRL-EVENT-SCAN-RESULTS 
+E/WifiMonitor( 2912): handleEvent 4  CTRL-EVENT-SCAN-RESULTS 
+E/WifiStateMachine( 2912):  ConnectedState !SCAN_RESULTS_EVENT 0 0 found=6 known=2 got=6 bcn=0
+E/WifiStateMachine( 2912):  L2ConnectedState !SCAN_RESULTS_EVENT 0 0 found=6 known=2 got=6 bcn=0
+E/ZipFileCache( 3575): init failed when open zip file.
+E/WifiStateMachine( 2912):  ConnectModeState !SCAN_RESULTS_EVENT 0 0 found=6 known=2 got=6 bcn=0
+E/WifiStateMachine( 2912):  DriverStartedState !SCAN_RESULTS_EVENT 0 0 found=6 known=2 got=6 bcn=0
+E/WifiStateMachine( 2912):  SupplicantStartedState !SCAN_RESULTS_EVENT 0 0 found=6 known=2 got=6 bcn=0
+E/WifiStateMachine( 2912): [1,548,645,430,533 ms] noteScanEnd no scan source
+E/ZipFileCache( 3575): init failed when open zip file.
+E/WifiStateMachine( 2912): wifi setScanResults statecom.android.server.wifi.WifiStateMachine$ConnectedState@f6fd0d9 sup_state=COMPLETED debouncing=false
+E/WifiAutoJoinController ( 2912): SPARK-47A2ZV b0:e5:ed:3e:35:d4 rssi=-62 cap [WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS] is not scored
+E/WifiAutoJoinController ( 2912): LotsOfHugs2.4G c8:94:bb:63:bd:84 rssi=-66 cap [WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS] is not scored
+E/WifiAutoJoinController ( 2912): vodafone711BFB a4:91:b1:71:1b:fc rssi=-72 cap [WPA2-PSK-CCMP][WPS][ESS] is not scored
+E/WifiAutoJoinController ( 2912): SPARK-47A2ZV_EXT 78:d2:94:a0:8a:94 rssi=-46 cap [WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS] is not scored
+E/WifiAutoJoinController ( 2912): Kaddy_Shack_2.4GHz f0:43:47:a9:00:38 rssi=-87 cap [WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS] is not scored
+E/WifiAutoJoinController ( 2912): SPARK-PE9NDW bc:75:74:85:ef:a4 rssi=-87 cap [WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS] is not scored
+E/WifiAutoJoinController ( 2912): ageScanResultsOut delay 40000 size 8 now 1548645430539
+E/WifiAutoJoinController ( 2912): newSupplicantResults size=6 known=2 true
+E/WifiAutoJoinController ( 2912): attemptAutoJoin() status=bssid=b0:e5:ed:3e:35:d4
+E/WifiAutoJoinController ( 2912): ssid=SPARK-47A2ZV
+E/WifiAutoJoinController ( 2912): id=7
+E/WifiAutoJoinController ( 2912): mode=station
+E/WifiAutoJoinController ( 2912): pairwise_cipher=CCMP
+E/WifiAutoJoinController ( 2912): group_cipher=TKIP
+E/WifiAutoJoinController ( 2912): key_mgmt=WPA2-PSK
+E/WifiAutoJoinController ( 2912): wpa_state=COMPLETED
+E/WifiAutoJoinController ( 2912): ip_address=192.168.1.70
+E/WifiAutoJoinController ( 2912): p2p_device_address=48:3c:0c:62:aa:c2
+E/WifiAutoJoinController ( 2912): address=48:3c:0c:62:aa:c2
+E/WifiAutoJoinController ( 2912): uuid=5f16eaa6-edc0-5104-a9d9-ed5af9dc4164 split=12
+E/WifiAutoJoinController ( 2912): attemptAutoJoin() num recent config 1 current="SPARK-47A2ZV"WPA_PSK ---> suppNetId=7
+E/WifiAutoJoinController ( 2912): attemptAutoJoin good candidate seen, bumped hard -> status=0 "SPARK-47A2ZV"WPA_PSK rssi=(-62,-127) num=(1,0)
+E/WifiAutoJoinController ( 2912): attemptAutoJoin skip current candidate  7 key "SPARK-47A2ZV"WPA_PSK
+E/WifiAutoJoinController ( 2912): look up all configurations network done, candidate = null
+E/WifiAutoJoinController ( 2912): attemptRoam() BSSID is set b0:e5:ed:3e:35:d4 -> bail
+E/WifiAutoJoinController ( 2912): Done attemptAutoJoin status=0
+I/HwSystemManager( 3703): MemCPUMonitor:MemCPUMonitor : Send START_MONITOR_MESSAGE message.
+I/ActivityManager( 2912): filter receiver for action = android.net.wifi.SCAN_RESULTS
+I/LockScreenCallbackImpl( 3053): onTimeChanged
+E/ZipFileCache( 3575): init failed when open zip file.
+I/System.out( 3543): BitString length 17
+I/System.out( 3543): MAC Addressb0:e5:ed:3e:35:d4
+I/System.out( 3543): BitString length 17
+I/System.out( 3543): MAC Addressc8:94:bb:63:bd:84
+I/System.out( 3543): BitString length 17
+I/System.out( 3543): MAC Addressa4:91:b1:71:1b:fc
+I/System.out( 3543): BitString length 17
+I/System.out( 3543): MAC Address78:d2:94:a0:8a:94
+I/System.out( 3543): BitString length 17
+I/System.out( 3543): MAC Addressf0:43:47:a9:00:38
+I/System.out( 3543): BitString length 17
+I/System.out( 3543): MAC Addressbc:75:74:85:ef:a4
+E/ZipFileCache( 3575): init failed when open zip file.
+I/HwLauncher( 3575): Model  onReceive intent=Intent { act=android.intent.action.TIME_TICK flg=0x50000014 (has extras) }
+I/DiscoveryManager( 4263): Filter criteria(%urn:x-cast:com.google.cast.media) scannerFlags(2)
+I/TimeManager( 3200): receiver action = android.intent.action.TIME_TICK
+I/TimeManager( 3200): send message delay millis = 50429 ms
+I/TimeManager( 3200): hand message 1
+I/TimeManager( 3200): notify time change. size = 2
+I/TimeLayout( 3200): time = 16:17
+I/TimeLayout( 3200): updateDate date = 28/01/2019
+I/TimeLayout( 3200): weekDay = Monday
+I/SUPL20_LocMan( 3543): Phone type:GSM
+E/ZipFileCache( 3575): init failed when open zip file.
+I/SUPL20_LocMan( 3543): Network Op Mnc= 24 MCC = 530
+I/SUPL20_LocMan( 3543):  cellInfo NetworkType:NOT RETERIVE,21
+I/SUPL20_SPIMESLP-SENDING( 3543): m_bPacket.length 489
+I/SUPL20_SPIMESLP-SENDING( 3543): bBrokenPipe = false
+E/ZipFileCache( 3575): init failed when open zip file.
+E/ZipFileCache( 3575): init failed when open zip file.
+E/ZipFileCache( 3575): init failed when open zip file.
+E/ZipFileCache( 3575): init failed when open zip file.
+E/WifiStateMachine( 2912):  ConnectedState !CMD_START_SCAN 10005 3 ic=11 proc(ms):1 dur:281 rssi=-62 f=2412 sc=100 link=72 tx=0.0, 0.0, 0.0  rx=0.0 fiv=30000 [on:0 tx:0 rx:0 period:358] from screen [on:0 period:-1837763245]
+E/WifiStateMachine( 2912):  L2ConnectedState !CMD_START_SCAN 10005 3 ic=11 proc(ms):1 dur:281 rssi=-62 f=2412 sc=100 link=72 tx=0.0, 0.0, 0.0  rx=0.0 fiv=30000 [on:0 tx:0 rx:0 period:1] from screen [on:0 period:-1837763244]
+E/WifiStateMachine( 2912): WifiStateMachine CMD_START_SCAN source 10005 txSuccessRate=0.00 rxSuccessRate=0.00 targetRoamBSSID=b0:e5:ed:3e:35:d4 RSSI=-62
+I/wpa_supplicant( 3052): set current WIFI status to BT!
+E/WifiStateMachine( 2912): [1,548,645,430,613 ms] noteScanstart no scan source
+I/wpa_supplicant( 3052): wlan0: CTRL-EVENT-SCAN-STARTED 
+E/WifiMonitor( 2912): WifiMonitor:wlan0 cnt=85 dispatchEvent: CTRL-EVENT-SCAN-STARTED 
+E/WifiMonitor( 2912): handleEvent 14  CTRL-EVENT-SCAN-STARTED 
+E/WifiMonitor( 2912): handleEvent unknown: 14  CTRL-EVENT-SCAN-STARTED 
+E/WifiStateMachine( 2912):  ConnectedState !CMD_STOP_PACKET_FILTERING 0 0
+E/WifiStateMachine( 2912):  L2ConnectedState !CMD_STOP_PACKET_FILTERING 0 0
+E/WifiStateMachine( 2912):  ConnectModeState !CMD_STOP_PACKET_FILTERING 0 0
+E/WifiStateMachine( 2912):  DriverStartedState !CMD_STOP_PACKET_FILTERING 0 0
+I/wpa_supplicant( 3052): set current WIFI status to BT!
+E/WifiMonitor( 2912): WifiMonitor:wlan0 cnt=86 dispatchEvent: CTRL-EVENT-BSS-REMOVED 11 f0:43:47:a9:00:38
+E/WifiMonitor( 2912): handleEvent 13  CTRL-EVENT-BSS-REMOVED 11 f0:43:47:a9:00:38
+E/WifiMonitor( 2912): WifiMonitor:wlan0 cnt=87 dispatchEvent: CTRL-EVENT-SCAN-RESULTS 
+E/WifiMonitor( 2912): handleEvent 4  CTRL-EVENT-SCAN-RESULTS 
+E/WifiStateMachine( 2912):  ConnectedState !SCAN_RESULTS_EVENT 0 0 found=6 known=2 got=6 bcn=0
+E/WifiStateMachine( 2912):  L2ConnectedState !SCAN_RESULTS_EVENT 0 0 found=6 known=2 got=6 bcn=0
+E/WifiStateMachine( 2912):  ConnectModeState !SCAN_RESULTS_EVENT 0 0 found=6 known=2 got=6 bcn=0
+E/WifiStateMachine( 2912):  DriverStartedState !SCAN_RESULTS_EVENT 0 0 found=6 known=2 got=6 bcn=0
+E/WifiStateMachine( 2912):  SupplicantStartedState !SCAN_RESULTS_EVENT 0 0 found=6 known=2 got=6 bcn=0
+E/WifiStateMachine( 2912): [1,548,645,430,896 ms] noteScanEnd WorkSource{10005}
+E/WifiStateMachine( 2912): wifi setScanResults statecom.android.server.wifi.WifiStateMachine$ConnectedState@f6fd0d9 sup_state=COMPLETED debouncing=false
+E/WifiAutoJoinController ( 2912): SPARK-47A2ZV b0:e5:ed:3e:35:d4 rssi=-62 cap [WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS] is not scored
+E/WifiAutoJoinController ( 2912): LotsOfHugs2.4G c8:94:bb:63:bd:84 rssi=-65 cap [WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS] is not scored
+E/WifiAutoJoinController ( 2912): vodafone711BFB a4:91:b1:71:1b:fc rssi=-72 cap [WPA2-PSK-CCMP][WPS][ESS] is not scored
+E/WifiAutoJoinController ( 2912): SPARK-47A2ZV_EXT 78:d2:94:a0:8a:94 rssi=-46 cap [WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS] is not scored
+E/WifiAutoJoinController ( 2912): SPARK-PE9NDW bc:75:74:85:ef:a4 rssi=-87 cap [WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS] is not scored
+E/WifiAutoJoinController ( 2912): ageScanResultsOut delay 40000 size 6 now 1548645430902
+E/WifiAutoJoinController ( 2912): newSupplicantResults size=6 known=2 true
+E/WifiAutoJoinController ( 2912): attemptAutoJoin() status=bssid=b0:e5:ed:3e:35:d4
+E/WifiAutoJoinController ( 2912): ssid=SPARK-47A2ZV
+E/WifiAutoJoinController ( 2912): id=7
+E/WifiAutoJoinController ( 2912): mode=station
+E/WifiAutoJoinController ( 2912): pairwise_cipher=CCMP
+E/WifiAutoJoinController ( 2912): group_cipher=TKIP
+E/WifiAutoJoinController ( 2912): key_mgmt=WPA2-PSK
+E/WifiAutoJoinController ( 2912): wpa_state=COMPLETED
+E/WifiAutoJoinController ( 2912): ip_address=192.168.1.70
+E/WifiAutoJoinController ( 2912): p2p_device_address=48:3c:0c:62:aa:c2
+E/WifiAutoJoinController ( 2912): address=48:3c:0c:62:aa:c2
+E/WifiAutoJoinController ( 2912): uuid=5f16eaa6-edc0-5104-a9d9-ed5af9dc4164 split=12
+E/WifiAutoJoinController ( 2912): attemptAutoJoin() num recent config 1 current="SPARK-47A2ZV"WPA_PSK ---> suppNetId=7
+E/WifiAutoJoinController ( 2912): attemptAutoJoin good candidate seen, bumped hard -> status=0 "SPARK-47A2ZV"WPA_PSK rssi=(-62,-127) num=(1,0)
+E/WifiAutoJoinController ( 2912): attemptAutoJoin skip current candidate  7 key "SPARK-47A2ZV"WPA_PSK
+E/WifiAutoJoinController ( 2912): look up all configurations network done, candidate = null
+E/WifiAutoJoinController ( 2912): attemptRoam() BSSID is set b0:e5:ed:3e:35:d4 -> bail
+E/WifiAutoJoinController ( 2912): Done attemptAutoJoin status=0
+I/ActivityManager( 2912): filter receiver for action = android.net.wifi.SCAN_RESULTS
+I/System.out( 3543): BitString length 17
+I/System.out( 3543): MAC Addressb0:e5:ed:3e:35:d4
+I/System.out( 3543): BitString length 17
+I/System.out( 3543): MAC Addressc8:94:bb:63:bd:84
+I/System.out( 3543): BitString length 17
+I/System.out( 3543): MAC Addressa4:91:b1:71:1b:fc
+I/System.out( 3543): BitString length 17
+I/System.out( 3543): MAC Address78:d2:94:a0:8a:94
+I/System.out( 3543): BitString length 17
+I/System.out( 3543): MAC Addressbc:75:74:85:ef:a4
+I/SUPL20_LocMan( 3543): Phone type:GSM
+I/SUPL20_LocMan( 3543): Network Op Mnc= 24 MCC = 530
+I/SUPL20_LocMan( 3543):  cellInfo NetworkType:NOT RETERIVE,21
+I/SUPL20_SPIMESLP-SENDING( 3543): m_bPacket.length 415
+I/SUPL20_SPIMESLP-SENDING( 3543): bBrokenPipe = false
+I/MQoS    ( 2912): onSignal: mSubId=0,currDataSubID=0
+I/MQoS    ( 2912): received cell-signal:5
+I/HwLockScreenImpl( 3053): onTrigger startActivity intent=null
+I/KeyguardHostView( 3053): showNextSecurityScreenOrFinish mSecondSecurityViewHasShow =false,securityMode=None
+I/KeyguardFingerprint.Validation( 3053): onDismissKeyguard, authenticated=true
+I/KeyguardFingerprint.Validation( 3053): checkAndQuit
+I/KeyguardFingerprint.Validation( 3053): finishAuthenticationManager
+I/KeyguardFingerprint.Validation( 3053): AuthenticationManager already finished
+E/BD.Reporter( 3053): Can't getService HwBDService
+I/HwLauncher( 3575): Launcher onStart()
+I/HwLauncher( 3575): Launcher dynamicIconsRegister
+I/HwLauncher( 3575): DynamicUpdater registerReceiver
+I/HwLauncher( 3575): DynamicUpdater call updateFolder
+I/HwLauncher( 3575): DynamicIcon onResume  isvisible = true   mAttachedToWindow:true    mWindowVisible:truecom.android.calendar
+I/HwLauncher( 3575): DynamicUpdater registerReceiver
+I/HwLauncher( 3575): DynamicUpdater call updateFolder
+I/HwLauncher( 3575): DynamicIcon onResume  isvisible = true   mAttachedToWindow:true    mWindowVisible:truecom.android.deskclock
+I/HwLauncher( 3575): DynamicUpdater registerReceiver
+I/ActivityManager( 2912): filter receiver for action = android.intent.action.USER_PRESENT
+I/HwLauncher( 3575): DynamicIconData , getDrawableForDynamic begin, pkg = com.android.deskclock, picName = deskclock_bg
+I/HwLauncher( 3575): DynamicIconData , getDrawableForDynamic end, pkg = com.android.deskclock, picName = deskclock_bg
+I/HwLauncher( 3575): DynamicIconData , getDrawableForDynamic begin, pkg = com.android.deskclock, picName = deskclock_bg
+I/HwLauncher( 3575): DynamicIconData , getDrawableForDynamic end, pkg = com.android.deskclock, picName = deskclock_bg
+I/HwSystemManager( 3703): AppLockService:BroadcastReceiver, intent is null or applock function is closed!
+I/HwLauncher( 3575): DynamicUpdater call updateFolder
+I/HwLauncher( 3575): DynamicIcon onResume  isvisible = true   mAttachedToWindow:false    mWindowVisible:falsecom.huawei.android.totemweather
+I/HwLauncher( 3575): Launcher.Utilities createIconBitmap classname = null, sourceWidth = 114, sourceHeight = 114
+I/HwLauncher( 3575): ClockDynamicUpdater clock update folder at ClockDynamicUpdater
+I/HwLauncher( 3575): DynamicUpdater updateBitmap end and send update message
+I/HwLauncher( 3575): WeatherDynamicUpdaterpositiveUpdate at WeatherDynamicUpdater
+I/HwLauncher( 3575): Launcher onResume()
+I/HwLauncher( 3575): Launcher doResumeWork()
+I/HwLauncher( 3575): Launcher.MotionManager startMotionAppsReco 402
+I/HwLauncher( 3575): Launcher  onResume mIsToUninstallApp = false
+I/PG Utils( 3575): acquire_providerpkg:[com.huawei.motionservice] pid:[]  maybe timeout , send to PG
+I/HwLauncher( 3575): DynamicUpdater call updateFolder
+I/PhoneStatusBar( 3200): shouldTranslucent:true
+I/PhoneStatusBar( 3200): hw_status_bar_operators = false, setSystemUIVisibily(SHOW_OPERATOR = false)
+I/KeyguardFingerprint.Validation( 3053): intent received:android.intent.action.KEYGUARD_UNLOCK
+I/KeyguardFingerprint.Validation( 3053): turn on screen:false
+I/Authzen ( 4263): [DeviceStateSyncManager] Device state fast sync is disabled
+I/HwLauncher( 3575): WeatherDynamicUpdaterreceive action = com.huawei.android.action.launcher_weather_icon_change
+I/HwLauncher( 3575): WeatherDynamicUpdaterreceiver data is int[] = [0, 0, 33, 8, 68, 8, 103, 8]
+I/HwLauncher( 3575):  stringArray[] [cloudy, num2, num4, tempc]
+I/KeyguardFingerprint.Validation( 3053): hasWindowFocus:false
+I/ActivityManager( 2912): filter receiver for action = com.huawei.android.action.AUTO_UPDATE_MYLOCATION
+W/View    ( 3200): requestLayout() improperly called by com.android.systemui.statusbar.phone.IconMerger{10ddce25 V.E..... ......I. 0,0-108,50 #7f0d0086 app:id/notificationIcons} during layout: running second layout pass
+W/View    ( 3200): requestLayout() improperly called by com.android.systemui.statusbar.phone.IconMerger{10ddce25 V.E..... ........ 0,0-108,50 #7f0d0086 app:id/notificationIcons} during second layout pass: posting in next frame
+W/MagazineLockScreen( 3053): drawColor mRect = Rect(28, 1002 - 292, 1280), mWallpaperDrawable = null
+I/HwUpdateMonitor( 3053): unRegisterCallback com.android.huawei.hwlockscreen.HwLockScreenWeatherView$2@3834597f, callback size = 1
+I/HwUpdateMonitor( 3053): unRegisterMonitor
+W/MotionDetectionManager( 3575): startMotionAppsReco motionApps: 402 disabled
+W/HwLauncher( 3575): Launcher.MotionManager startMotionAppsReco service flg 402 is unavailable
+E/ZipFileCache( 3575): init failed when open zip file.
+W/PGApi_client( 3463): recv actoionId = 10010, action = com.huawei.pgmng.PGAction@5c3dc05 actionId =10010 pkg =com.huawei.android.launcher extend1 =36 extend2 = flag =3 type =1
+W/PGMiddleWare jhh( 3463): in handleAction method, action = 10010
+W/PGMiddleWare jhh( 3463): in handleAction, invoke client = com.huawei.pgmng.middleware.AudioEffectLowPowerImpl@2377816, action = com.huawei.pgmng.PGAction@5c3dc05 actionId =10010 pkg =com.huawei.android.launcher extend1 =36 extend2 = flag =3 type =1
+I/AudioEffectLowPowerImpl jhh( 3463): jhh handle default mActionId = 10010, action = com.huawei.pgmng.PGAction@5c3dc05 actionId =10010 pkg =com.huawei.android.launcher extend1 =36 extend2 = flag =3 type =1
+W/AudioEffectLowPowerImpl jhh( 3463): enter into the safetyguard Scene.
+W/AudioEffectLowPowerImpl jhh( 3463): m2DGameFront = false, m3DGameFront = false, mMediaPerceptible = false, mMusicPerceptible = false
+I/InfoCenterView( 3053): unRegisterCallback com.android.huawei.music.HwMusicView$2@d985211, callback size = 2
+W/AudioEffectLowPowerImpl jhh( 3463): mAudioActive = false, mMusicPerceptible = false
+W/AudioEffectLowPowerImpl jhh( 3463): return for smartPAOn and mLowAudioEffectEnable both = false
+I/HwMusicManager( 3053): unRegisterMusicObserver 
+I/HwMusic ( 3053): endObserver mContext=android.app.Application@212be443
+I/InfoCenterView( 3053): unRegisterCallback com.android.huawei.music.HwMusicView$2@89efe4d, callback size = 1
+I/CameraLayout( 3053): onDetachedFromWindow
+I/HwNotification( 3053): mNotificationListener unregisterAsSystemService
+W/HwNotification( 3053): setDisplayView linearlayout is nulll
+W/AlarmAdapter( 3463): NoSuchMethod: setAlarmsPending 
+I/AlarmRestrict( 3463): [resume] net alarms
+E/WindowManager( 2912): do not set userActivityTimeout this time
+I/DeviceScanner( 4263): [MDNS] Received response from "Jasons Chrome" (a376651ebfd9e294788b2431e6305fae) with result "1 New device"
+I/HwLauncher( 3575):  FPSMonitor [Launcher , dispatchTouchEvent begin, false, true] down event  x = 283 y = 283
+I/HwLauncher( 3575):  FPSMonitor [PagedView , onIntercept] down event  x = 283 y = 283
+I/HwLauncher( 3575):  FPSMonitor [Launcher , dispatchTouchEvent end, false, true] down event  x = 283 y = 283
+I/HwLauncher( 3575):  FPSMonitor [Launcher , dispatchTouchEvent begin, false, true] up event  x = 283 y = 283
+I/HwLauncher( 3575):  FPSMonitor [PagedView , onIntercept] up event  x = 283 y = 283
+I/HwLauncher( 3575):  FPSMonitor [Launcher , dispatchTouchEvent end, false, true] up event  x = 283 y = 283
+W/ResourceType( 3575): No known package when getting name for resource number 0x9c030100
+I/HwLauncher( 3575): Launcher onclick begin com.huawei.android.launcher.BubbleTextView{276a203a VFED..CL ...P.... 176,80-352,264 #9c030100}
+I/HwLauncher( 3575): Launcher.Utilities  startActivitySafely useLaunchAnimation begin startActivity() 
+I/HwLauncher( 3575): Launcher.Utilities  startActivitySafely useLaunchAnimation end startActivity() 
+I/HwLauncher( 3575): Launcher onclick end
+I/HwLauncher( 3575): Launcher onPause()
+I/HwLauncher( 3575): Launcher.MotionManager stopMotionAppsReco 402
+I/HwLauncher( 3575): Launcher.MotionManager stopMotionAppsReco 403
+W/HwLauncher( 3575): Launcher.MotionManager stopMotionAppsReco service flg 402 is unavailable
+W/HwLauncher( 3575): Launcher.MotionManager stopMotionAppsReco service flg 403 is unavailable
+E/ZipFileCache( 2912): init failed when open zip file.
+E/ZipFileCache( 2912): init failed when open zip file.
+E/ZipFileCache( 2912): init failed when open zip file.
+E/ZipFileCache( 2912): init failed when open zip file.
+E/ZipFileCache( 2912): init failed when open zip file.
+E/ZipFileCache( 2912): init failed when open zip file.
+E/ZipFileCache( 2912): init failed when open zip file.
+E/ZipFileCache( 2912): init failed when open zip file.
+E/ZipFileCache( 2912): init failed when open zip file.
+E/ZipFileCache( 2912): init failed when open zip file.
+E/ZipFileCache( 2912): init failed when open zip file.
+E/ZipFileCache( 2912): init failed when open zip file.
+E/ZipFileCache( 2912): init failed when open zip file.
+E/ZipFileCache( 2912): init failed when open zip file.
+E/ZipFileCache( 2912): init failed when open zip file.
+E/ZipFileCache( 2912): init failed when open zip file.
+I/HwLauncher( 3575): Launcher onStop()
+I/HwLauncher( 3575): Launcher dismissDialog
+I/HwLauncher( 3575): Launcher dynamicIconsUnregister
+I/HwLauncher( 3575): DynamicUpdater unregisterReceiver
+I/HwLauncher( 3575): DynamicIcon onPause  isvisible = true   mAttachedToWindow:true    mWindowVisible:truecom.android.calendar
+I/HwLauncher( 3575): DynamicUpdater unregisterReceiver
+I/HwLauncher( 3575): DynamicIcon onPause  isvisible = true   mAttachedToWindow:true    mWindowVisible:truecom.android.deskclock
+I/HwLauncher( 3575): DynamicUpdater unregisterReceiver
+I/HwSystemManager( 3703): AppLockService:applock password not initial or function is closed
+I/HwSystemManager( 3703): AppLockService:applock password not initial or function is closed
+I/HwLauncher( 3575): DynamicIcon onPause  isvisible = true   mAttachedToWindow:false    mWindowVisible:falsecom.huawei.android.totemweather
+I/HwLauncher( 3575): DynamicIcon onVisibilityChanged 4 - com.android.calendar
+I/HwLauncher( 3575): DynamicIcon onVisibilityChanged 4 - com.android.deskclock
+I/HwSystemManager( 3703): AppManager:getNetAppInfoFromDB cursor lenth = 1
+I/HwLauncher( 3575): Launcher  onWindowVisibilityChanged visibility = 4
+I/HwLauncher( 3575): DynamicIcon onWindowVisibilityChanged 4 - com.android.calendar
+I/HwLauncher( 3575): DynamicIcon onWindowVisibilityChanged 4 - com.android.deskclock
+E/BitmapFactory( 8979): Unable to decode stream: java.io.FileNotFoundException: /storage/emulated/0/kivy/Paint/icon.png: open failed: ENOENT (No such file or directory)
+E/BitmapFactory( 8979): Unable to decode stream: java.io.FileNotFoundException: /storage/emulated/0/kivy/canvaswidget/icon.png: open failed: ENOENT (No such file or directory)
+E/BitmapFactory( 8979): Unable to decode stream: java.io.FileNotFoundException: /storage/emulated/0/kivy/nav/icon.png: open failed: ENOENT (No such file or directory)
+E/BitmapFactory( 8979): Unable to decode stream: java.io.FileNotFoundException: /storage/emulated/0/kivy/pub/icon.png: open failed: ENOENT (No such file or directory)
+E/BitmapFactory( 8979): Unable to decode stream: java.io.FileNotFoundException: /storage/emulated/0/kivy/take note/icon.png: open failed: ENOENT (No such file or directory)
+E/BitmapFactory( 8979): Unable to decode stream: java.io.FileNotFoundException: /storage/emulated/0/kivy/tester/icon.png: open failed: ENOENT (No such file or directory)
+E/BitmapFactory( 8979): Unable to decode stream: java.io.FileNotFoundException: /storage/emulated/0/kivy/tezter/icon.png: open failed: ENOENT (No such file or directory)
+E/BitmapFactory( 8979): Unable to decode stream: java.io.FileNotFoundException: /storage/emulated/0/kivy/touch/icon.png: open failed: ENOENT (No such file or directory)
+E/ZipFileCache( 8979): init failed when open zip file.
+E/ZipFileCache( 8979): init failed when open zip file.
+E/ZipFileCache( 8979): init failed when open zip file.
+E/ZipFileCache( 8979): init failed when open zip file.
+E/ZipFileCache( 8979): init failed when open zip file.
+E/ZipFileCache( 8979): init failed when open zip file.
+E/ZipFileCache( 8979): init failed when open zip file.
+E/ZipFileCache( 8979): init failed when open zip file.
+E/ZipFileCache( 8979): init failed when open zip file.
+E/ZipFileCache( 8979): init failed when open zip file.
+E/ZipFileCache( 8979): init failed when open zip file.
+E/ZipFileCache( 8979): init failed when open zip file.
+E/ZipFileCache( 8979): init failed when open zip file.
+E/ZipFileCache( 8979): init failed when open zip file.
+E/ZipFileCache( 8979): init failed when open zip file.
+E/ZipFileCache( 8979): init failed when open zip file.
+E/ZipFileCache( 8979): init failed when open zip file.
+E/ZipFileCache( 8979): init failed when open zip file.
+W/PGApi_client( 3463): recv actoionId = 10000, action = com.huawei.pgmng.PGAction@124c645a actionId =10000 pkg =org.kivy.pygame extend1 =37 extend2 = flag =3 type =1
+W/PGMiddleWare jhh( 3463): in handleAction method, action = 10000
+W/PGMiddleWare jhh( 3463): in handleAction, invoke client = com.huawei.pgmng.middleware.AudioEffectLowPowerImpl@2377816, action = com.huawei.pgmng.PGAction@124c645a actionId =10000 pkg =org.kivy.pygame extend1 =37 extend2 = flag =3 type =1
+I/AudioEffectLowPowerImpl jhh( 3463): jhh handle default mActionId = 10000, action = com.huawei.pgmng.PGAction@124c645a actionId =10000 pkg =org.kivy.pygame extend1 =37 extend2 = flag =3 type =1
+W/AudioEffectLowPowerImpl jhh( 3463): enter into DEFAULT_FRONT Scene.
+W/AudioEffectLowPowerImpl jhh( 3463): m2DGameFront = false, m3DGameFront = false, mMediaPerceptible = false, mMusicPerceptible = false
+W/AudioEffectLowPowerImpl jhh( 3463): mAudioActive = false, mMusicPerceptible = false
+W/AudioEffectLowPowerImpl jhh( 3463): return for smartPAOn and mLowAudioEffectEnable both = false
+I/HwAps   ( 3463): APS: enable: true
+E/ZipFileCache( 8979): init failed when open zip file.
+E/ZipFileCache( 8979): init failed when open zip file.
+E/ZipFileCache( 8979): init failed when open zip file.
+E/ZipFileCache( 8979): init failed when open zip file.
+I/PhoneStatusBar( 3200): shouldTranslucent:true
+I/PhoneStatusBar( 3200): hw_status_bar_operators = false, setSystemUIVisibily(SHOW_OPERATOR = false)
+I/HwLauncher( 3575): Launcher  onWindowVisibilityChanged visibility = 8
+I/HwLauncher( 3575): DynamicIcon onWindowVisibilityChanged 8 - com.android.calendar
+I/HwLauncher( 3575): DynamicIcon onWindowVisibilityChanged 8 - com.android.deskclock
+I/OpenGLRenderer( 8979): Initialized EGL, version 1.4
+E/ZipFileCache( 8979): init failed when open zip file.
+E/ZipFileCache( 8979): init failed when open zip file.
+E/ZipFileCache( 8979): init failed when open zip file.
+E/ZipFileCache( 8979): init failed when open zip file.
+I/art     ( 2912): Explicit concurrent mark sweep GC freed 117615(6MB) AllocSpace objects, 16(1352KB) LOS objects, 33% free, 31MB/47MB, paused 2.295ms total 216.979ms
+I/ActivityManager( 2912): Displayed org.kivy.pygame/org.renpy.android.ProjectChooser: +566ms
+E/WifiStateMachine( 2912):  ConnectedState !CMD_RSSI_POLL 11 0 "SPARK-47A2ZV" b0:e5:ed:3e:35:d4 rssi=-62 f=2412 sc=100 link=72 tx=0.0, 0.0, 0.0  rx=0.0 bcn=0 [on:0 tx:0 rx:0 period:2464] from screen [on:0 period:-1837760778] gl hn u24 rssi=-56 ag=0 hr ticks 0,0,4 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+E/WifiStateMachine( 2912):  L2ConnectedState !CMD_RSSI_POLL 11 0 "SPARK-47A2ZV" b0:e5:ed:3e:35:d4 rssi=-62 f=2412 sc=100 link=72 tx=0.0, 0.0, 0.0  rx=0.0 bcn=0 [on:0 tx:0 rx:0 period:4] from screen [on:0 period:-1837760774] gl hn u24 rssi=-56 ag=0 hr ticks 0,0,4 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+E/WifiStateMachine( 2912): fetchRssiLinkSpeedAndFrequencyNative rssi=-63 linkspeed=72 SSID="SPARK-47A2ZV"
+I/Finsky  ( 6374): [83] com.google.android.finsky.bo.an.run(6): Stats for Executor: VerifyAppsDataStore com.google.android.finsky.bo.ao@34454232[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 2]
+I/Finsky  ( 6374): [83] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-verify_apps.db com.google.android.finsky.bo.ao@549b83[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 1]
+E/WifiStateMachine( 2912): calculateWifiScore freq=2412 speed=72 score=100 highRSSI  -> txbadrate=0.00 txgoodrate=428.00 txretriesrate=0.00 rxrate=435.00 userTriggerdPenalty0
+E/WifiStateMachine( 2912):  good link -> stuck count =0
+E/WifiStateMachine( 2912):  badRSSI count0 lowRSSI count0 --> score 60
+E/WifiStateMachine( 2912):  isHighRSSI       ---> score=65
+I/Finsky  ( 6374): [83] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-notification_cache com.google.android.finsky.bo.ao@35ba5100[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 1]
+I/HwSystemManager( 3703): BgPowerManagerService:MSG_SCREEN_ON Received and mScreenOmTime :1548645433497 mScreenOffTime :1548645392802mCurBatterylevel :116mScreenOffBatterylevel :113
+I/Finsky  ( 6374): [83] com.google.android.finsky.bo.an.run(6): Stats for Executor: InstallQueueDatabaseManager com.google.android.finsky.bo.ao@b02ad39[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 1]
+I/Hwaps   ( 8979): APS: version is 2.0.32
+E/ZipFileCache( 2912): init failed when open zip file.
+E/ZipFileCache( 2912): init failed when open zip file.
+E/ZipFileCache( 2912): init failed when open zip file.
+E/ZipFileCache( 2912): init failed when open zip file.
+E/ZipFileCache( 2912): init failed when open zip file.
+E/ZipFileCache( 2912): init failed when open zip file.
+E/ZipFileCache( 2912): init failed when open zip file.
+E/ZipFileCache( 2912): init failed when open zip file.
+E/ZipFileCache( 2912): init failed when open zip file.
+E/ZipFileCache( 2912): init failed when open zip file.
+E/ZipFileCache( 2912): init failed when open zip file.
+E/ZipFileCache( 2912): init failed when open zip file.
+W/[Gralloc-Warning]( 2309): int gralloc_register_buffer(const gralloc_module_t*, buffer_handle_t):66 Registering handle 0x5598bbb740 coming from the same process: 2309.
+I/SurfaceFlinger( 2309): set Mirror VirtualDisplay orientation = 1
+E/ZipFileCache( 2912): init failed when open zip file.
+E/ZipFileCache( 2912): init failed when open zip file.
+E/ZipFileCache( 2912): init failed when open zip file.
+E/ZipFileCache( 2912): init failed when open zip file.
+I/HwSystemManager( 7040): HsmPackageManager:onConfigureChanged: en_NZ
+I/HwSystemManager( 3703): HsmPackageManager:onConfigureChanged: en_NZ
+W/Settings( 3515): Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+E/ZipFileCache( 3200): init failed when open zip file.
+I/InputReader( 2912): Reconfiguring input devices.  changes=0x00000004
+I/InputReader( 2912): Device reconfigured: id=3, name='cyttsp5_mt', size 720x1280, orientation 1, mode 1, display id 0
+I/HwLauncher( 3575): Model  onReceive intent=Intent { act=android.intent.action.CONFIGURATION_CHANGED flg=0x70000010 }
+I/MSG_APP_Mms( 6778): Broadcast ACTION_CONFIGURATION_CHANGED received.
+I/HwLauncher( 3575): Launcher.Utilities updateOrientToPortrait original orientation = 2
+I/HwLauncher( 3575): Launcher.Settings  updateIconTitleSize fontSize = 0.0
+I/HwLauncher( 3575): Launcher.Settings  updateIconTitleSize app_icon_text_size fontSize = 24.0
+I/HwSystemManager( 3703): AppLockService:applock password not initial or function is closed
+I/HwSystemManager( 3703): AppManager:getNetAppInfoFromDB cursor lenth = 1
+I/PanelView( 3200): Configuration orientation changed
+E/BitmapFactory( 9018): Unable to decode stream: java.io.FileNotFoundException: /storage/emulated/0/kivy/pub/icon.png: open failed: ENOENT (No such file or directory)
+I/SurfaceFlinger( 2309): set Mirror VirtualDisplay orientation = 0
+E/ZipFileCache( 3200): init failed when open zip file.
+E/ZipFileCache( 3200): init failed when open zip file.
+I/InputReader( 2912): Reconfiguring input devices.  changes=0x00000004
+I/InputReader( 2912): Device reconfigured: id=3, name='cyttsp5_mt', size 720x1280, orientation 0, mode 1, display id 0
+I/HwSystemManager( 3703): HsmPackageManager:onConfigureChanged: en_NZ
+W/Settings( 3515): Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+I/HwSystemManager( 7040): HsmPackageManager:onConfigureChanged: en_NZ
+I/MSG_APP_Mms( 6778): Broadcast ACTION_CONFIGURATION_CHANGED received.
+I/HwLauncher( 3575): Model  onReceive intent=Intent { act=android.intent.action.CONFIGURATION_CHANGED flg=0x70000010 }
+I/HwLauncher( 3575): Launcher.Settings  updateIconTitleSize fontSize = 0.0
+I/HwLauncher( 3575): Launcher.Settings  updateIconTitleSize app_icon_text_size fontSize = 24.0
+I/TimeManager( 3200): receiver action = android.intent.action.CONFIGURATION_CHANGED
+W/PhoneStatusBar/NavigationBarView( 3200): *** Invalid layout in navigation bar (sizeChanged this=84x720 cur=720x96)
+I/SDLSurface( 9018): Surface will NOT be transparent
+I/art     ( 9018): Can not find class: Landroid/widget/ViewStub;
+I/art     ( 9018): Can not find class: Landroid/webkit/ViewStub;
+I/art     ( 9018): Can not find class: Landroid/app/ViewStub;
+W/ResourceType( 9018): No package identifier when getting value for resource number 0x00000000
+E/art     ( 9018): dlopen("/data/data/org.kivy.pygame/files/lib/python2.7/lib-dynload/_imaging.so", RTLD_LAZY) failed: dlopen failed: library "/data/data/org.kivy.pygame/files/lib/python2.7/lib-dynload/_imaging.so" not found
+I/python  ( 9018): Starting audio thread
+E/ZipFileCache( 3200): init failed when open zip file.
+I/OpenGLRenderer( 9018): Initialized EGL, version 1.4
+I/PanelView( 3200): Configuration orientation changed
+E/ZipFileCache( 3200): init failed when open zip file.
+E/ZipFileCache( 3200): init failed when open zip file.
+I/TimeManager( 3200): receiver action = android.intent.action.CONFIGURATION_CHANGED
+E/ZipFileCache( 3200): init failed when open zip file.
+E/ZipFileCache( 3200): init failed when open zip file.
+E/ZipFileCache( 3200): init failed when open zip file.
+E/ZipFileCache( 3200): init failed when open zip file.
+E/ZipFileCache( 3200): init failed when open zip file.
+I/TimeManager( 3200): hand message 1
+I/TimeManager( 3200): notify time change. size = 2
+I/TimeLayout( 3200): time = 16:17
+I/TimeLayout( 3200): updateDate date = 28/01/2019
+I/TimeLayout( 3200): weekDay = Monday
+I/SDLSurface( 9018): Choose egl configuration
+I/SDLSurface( 9018): Try to use graphics config R8G8B8A8S8
+W/SDLSurface( 9018): Create egl surface
+I/libSDL  ( 9018): Physical screen resolution is 720x1184
+I/python  ( 9018): presplash-fit is null
+I/python  ( 9018): presplash (fit=null) mx=0.703125,my=1.156250
+I/libSDL  ( 9018): Physical screen resolution is 720x1184
+I/python  ( 9018): Initialize Python for Android
+W/IInputConnectionWrapper( 8979): showStatusIcon on inactive InputConnection
+I/TimeManager( 3200): hand message 1
+I/TimeManager( 3200): notify time change. size = 2
+I/TimeLayout( 3200): time = 16:17
+I/ActivityManager( 2912): Displayed org.kivy.pygame/org.renpy.android.PythonActivity: +473ms
+I/TimeLayout( 3200): updateDate date = 28/01/2019
+I/TimeLayout( 3200): weekDay = Monday
+I/HwSystemManager( 3703): AppLockService:applock password not initial or function is closed
+I/python  ( 9018): ['/data/data/org.kivy.pygame/files/lib/python2.7/site-packages', '/data/data/org.kivy.pygame/files/lib/site-python']
+I/python  ( 9018): Android path ['/data/data/org.kivy.pygame/files/lib/python27.zip', '/data/data/org.kivy.pygame/files/lib/python2.7', '/data/data/org.kivy.pygame/files/lib/python2.7/lib-dynload', '/data/data/org.kivy.pygame/files/lib/python2.7/site-packages', '/storage/emulated/0/kivy/pub', '/data/data/org.kivy.pygame/files/lib/python2.7/site-packages/PIL']
+I/python  ( 9018): Android kivy bootstrap done. __name__ is __main__
+I/python  ( 9018): Run user program, change dir and execute main.py
+I/WindowBlurView( 3200): allowChangeBlurBackground
+I/WindowBlurView( 3200): setBlurBackground()
+I/python  ( 9018): [INFO              ] [Logger      ] Record log in /storage/emulated/0/kivy/pub/.kivy/logs/kivy_19-01-28_2.txt
+I/python  ( 9018): [INFO              ] [Kivy        ] v1.9.1
+I/python  ( 9018): [INFO              ] [Python      ] v2.7.2 (default, Mar 20 2016, 23:30:13) 
+I/python  ( 9018): [GCC 4.8]
+E/WifiStateMachine( 2912):  ConnectedState !CMD_RSSI_POLL 11 0 "SPARK-47A2ZV" b0:e5:ed:3e:35:d4 rssi=-63 f=2412 sc=100 link=72 tx=428.0, 0.0, 0.0  rx=435.0 bcn=0 [on:0 tx:0 rx:0 period:3000] from screen [on:0 period:-1837757764] gl hn u24 rssi=-58 ag=0 hr ticks 0,0,4 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+E/WifiStateMachine( 2912):  L2ConnectedState !CMD_RSSI_POLL 11 0 "SPARK-47A2ZV" b0:e5:ed:3e:35:d4 rssi=-63 f=2412 sc=100 link=72 tx=428.0, 0.0, 0.0  rx=435.0 bcn=0 [on:0 tx:0 rx:0 period:1] from screen [on:0 period:-1837757763] gl hn u24 rssi=-58 ag=0 hr ticks 0,0,4 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+E/WifiStateMachine( 2912): fetchRssiLinkSpeedAndFrequencyNative rssi=-67 linkspeed=72 SSID="SPARK-47A2ZV"
+E/WifiStateMachine( 2912): calculateWifiScore freq=2412 speed=72 score=100 highRSSI  -> txbadrate=0.00 txgoodrate=238.50 txretriesrate=0.00 rxrate=249.50 userTriggerdPenalty0
+E/WifiStateMachine( 2912):  good link -> stuck count =0
+E/WifiStateMachine( 2912):  badRSSI count0 lowRSSI count0 --> score 60
+E/WifiStateMachine( 2912):  isHighRSSI       ---> score=65
+I/python  ( 9018): [INFO              ] [Factory     ] 179 symbols loaded
+I/WindowBlurView( 3200): allowChangeBlurBackground
+E/ZipFileCache( 3200): init failed when open zip file.
+I/OAM     ( 2713): [check_file_size:402]/data/hwlogdir/wifi_log/wifi_log_1 log file beyond size=10240Byte, creat new file
+I/OAM     ( 2713): [rename_old_file:107]rename_old_file
+I/OAM     ( 2713): 
+E/Thermal-daemon( 2346): [charger_ic] temp_new :37  temp_old :36
+E/Thermal-daemon( 2346): Report temperature: [charger_ic] temp :37  report_threshold:1
+I/MQoS    ( 2912): onSignal: mSubId=0,currDataSubID=0
+I/MQoS    ( 2912): received cell-signal:5
+I/python  ( 9018):  /data/data/org.kivy.pygame/files/lib/python2.7/site-packages/kivy/core/image/img_pygame.py:13: RuntimeWarning: import cdrom: No module named cdrom
+I/python  ( 9018):  (ImportError: No module named cdrom)
+I/python  ( 9018): [INFO              ] [Image       ] Providers: img_tex, img_dds, img_gif, img_pygame, img_pil (img_ffpyplayer ignored)
+E/Thermal-daemon( 2346): [ap] temp_new :36  temp_old :35
+E/Thermal-daemon( 2346): Report temperature: [ap] temp :36  report_threshold:1
+I/art     ( 2912): Explicit concurrent mark sweep GC freed 18062(890KB) AllocSpace objects, 0(0B) LOS objects, 33% free, 31MB/47MB, paused 1.938ms total 205.400ms
+I/art     ( 2912): WaitForGcToComplete blocked for 176.898ms for cause HeapTrim
+I/python  ( 9018): [INFO              ] [Window      ] Provider: pygame
+I/libSDL  ( 9018): SDL_SetVideoMode(): application requested mode 720x1184
+I/python  ( 9018): [INFO              ] [GL          ] OpenGL version <OpenGL ES 2.0>
+I/python  ( 9018): [INFO              ] [GL          ] OpenGL vendor <ARM>
+I/python  ( 9018): [INFO              ] [GL          ] OpenGL renderer <Mali-450 MP>
+I/python  ( 9018): [INFO              ] [GL          ] OpenGL parsed version: 2, 0
+I/python  ( 9018): [INFO              ] [GL          ] Texture max size <4096>
+I/python  ( 9018): [INFO              ] [GL          ] Texture max units <8>
+I/HwSystemManager( 3703): PowerManagementModel:setAlarmsPending appList = []###pending = false
+I/python  ( 9018): [INFO              ] [Support     ] Android install hooks
+I/python  ( 9018): [INFO              ] [Window      ] virtual keyboard not allowed, single mode, not docked
+I/python  ( 9018): [INFO              ] [Text        ] Provider: pygame
+I/python  ( 9018): [INFO              ] [Audio       ] Providers: audio_pygame (audio_pygst, audio_ffpyplayer ignored)
+I/python  ( 9018): [INFO              ] [GL          ] NPOT texture support is available
+E/WifiStateMachine( 2912):  ConnectedState !CMD_RSSI_POLL 11 0 "SPARK-47A2ZV" b0:e5:ed:3e:35:d4 rssi=-67 f=2412 sc=100 link=72 tx=238.5, 0.0, 0.0  rx=249.5 bcn=0 [on:0 tx:0 rx:0 period:3004] from screen [on:0 period:-1837754755] gl hn u24 rssi=-62 ag=0 hr ticks 0,0,4 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+E/WifiStateMachine( 2912):  L2ConnectedState !CMD_RSSI_POLL 11 0 "SPARK-47A2ZV" b0:e5:ed:3e:35:d4 rssi=-67 f=2412 sc=100 link=72 tx=238.5, 0.0, 0.0  rx=249.5 bcn=0 [on:0 tx:0 rx:0 period:1] from screen [on:0 period:-1837754754] gl hn u24 rssi=-62 ag=0 hr ticks 0,0,4 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+E/WifiStateMachine( 2912): fetchRssiLinkSpeedAndFrequencyNative rssi=-63 linkspeed=72 SSID="SPARK-47A2ZV"
+E/WifiStateMachine( 2912): calculateWifiScore freq=2412 speed=72 score=100 highRSSI  -> txbadrate=0.00 txgoodrate=147.75 txretriesrate=0.00 rxrate=163.75 userTriggerdPenalty0
+E/WifiStateMachine( 2912):  good link -> stuck count =0
+E/WifiStateMachine( 2912):  badRSSI count0 lowRSSI count0 --> score 60
+E/WifiStateMachine( 2912):  isHighRSSI       ---> score=65
+I/MediaPlayerFactory( 2544): filePath /storage/emulated/0/kivy/pub/audio/disco_dancing.wav!
+E/MediaPlayerFactory( 2544):  create StagefrightPlayer
+E/MediaPlayer( 9018): Should have subtitle controller already set
+I/str_params( 2544): key: 'mode' value: ''
+I/AwesomePlayer( 2544): [isLowPowerMode] isLowPowerApk[0]
+I/AwesomePlayer( 2544): is not Low Power Apk.
+I/AwesomePlayer( 2544): create AudioPlayer
+W/audio_a2dp_hw( 2544): adev_set_parameters: WARNING: set param called even when stream out is null
+I/AudioPolicyManager( 2544): getOutput() stream 3, samplingRate 0, format 0, channelMask 3, flags 0
+W/audio_a2dp_hw( 2544): adev_set_parameters: WARNING: set param called even when stream out is null
+I/AudioPolicyManager( 2544): getOutput() stream 3, samplingRate 0, format 0, channelMask 3, flags 0
+I/AudioPolicyManager( 2544): getOutput() stream 3, samplingRate 44100, format 1, channelMask 3, flags 0
+I/AudioPolicyManager( 2544): getOutput() stream 3, samplingRate 0, format 0, channelMask 3, flags 0
+I/AudioPolicyManager( 2544): startOutput() output 2, stream 3, session 20
+I/AudioPolicyManager( 2544): getNewOutputDevice() selected device 2
+I/AudioPolicyManager( 2544): isStreamActive() stream 3 inPastMs 0
+I/AudioPolicyManager( 2544): setOutputDevice() output 2 device 0x0002 delayMs 0
+I/AudioPolicyManager( 2544): setOutputDevice() prevDevice 0x0002
+I/AudioPolicyManager( 2544): isStreamActive() stream 3 inPastMs 5000
+I/AudioPolicyManager( 2544): setOutputDevice() setting same device 0x0002 or null device for output 2
+I/audio_hw_primary( 2544): check_device_change return 1
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): checkAndSetVolume: index 5 output 2 device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): checkAndSetVolume: index 0 output 2 device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): checkAndSetVolume: index 0 output 2 device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): checkAndSetVolume: index 2 output 2 device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): checkAndSetVolume: index 1 output 2 device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): checkAndSetVolume: index 0 output 2 device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): checkAndSetVolume: index 7 output 2 device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): checkAndSetVolume: index 7 output 2 device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): checkAndSetVolume: index 0 output 2 device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): checkAndSetVolume: index 2 output 2 device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): checkAndSetVolume: index 11 output 2 device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): checkAndSetVolume: index 2 output 2 device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): isStreamActive() stream 3 inPastMs 5000
+I/AudioPolicyManager( 2544): isStreamActive() stream 3 inPastMs 5000
+E/HsmCoreServiceImpl( 2912): onTransact in code is: 102
+I/MediaProcessHandler( 2912): processOp opType: 0, uid: 10096, pid: 9018
+I/audio_hw_primary( 2544): start_output_stream: out_type = 0, out_device = 0
+I/audio_hw_primary( 2544): output_device_id is 2, output_route is media-speaker;input_source_id is 0, input_route is null.
+I/dsp_common( 2544): dsp_common_control_algo:set device = 2
+I/dsp_common( 2544): dsp_common_control_algo:set device = 2
+I/TFA9895_SPK( 2544): tfa9895 power on scene = 0, lastScene= 0
+I/TFA9895_SPK( 2544): tfa9895 spk power on!
+E/AudioSink( 2544): received unknown event type: 1 inside CallbackWrapper !
+E/AudioSink( 2544): received unknown event type: 1 inside CallbackWrapper !
+I/python  ( 9018): [INFO              ] [OSC         ] using <thread> for socket
+I/python  ( 9018): [INFO              ] [Base        ] Start application main loop
+I/python  ( 9018): [INFO              ] [Android     ] found 17 joystick
+I/python  ( 9018): [INFO              ] [Android     ] create joystick <0>
+I/python  ( 9018): [INFO              ] [Android     ] discard joystick <0> cause no button
+I/python  ( 9018): [INFO              ] [Android     ] create joystick <1>
+I/python  ( 9018): [INFO              ] [Android     ] create joystick <2>
+I/python  ( 9018): [INFO              ] [Android     ] create joystick <3>
+I/python  ( 9018): [INFO              ] [Android     ] create joystick <4>
+I/python  ( 9018): [INFO              ] [Android     ] create joystick <5>
+I/python  ( 9018): [INFO              ] [Android     ] create joystick <6>
+I/python  ( 9018): [INFO              ] [Android     ] create joystick <7>
+I/python  ( 9018): [INFO              ] [Android     ] create joystick <8>
+I/python  ( 9018): [INFO              ] [Android     ] create joystick <9>
+I/python  ( 9018): [INFO              ] [Android     ] create joystick <10>
+I/python  ( 9018): [INFO              ] [Android     ] create joystick <11>
+I/python  ( 9018): [INFO              ] [Android     ] create joystick <12>
+I/python  ( 9018): [INFO              ] [Android     ] create joystick <13>
+I/python  ( 9018): [INFO              ] [Android     ] create joystick <14>
+I/python  ( 9018): [INFO              ] [Android     ] create joystick <15>
+I/python  ( 9018): [INFO              ] [Android     ] create joystick <16>
+E/ZipFileCache( 3200): init failed when open zip file.
+I/wpa_supplicant( 3052): wlan0: HEART-BEAT-ACK: 27
+E/WifiMonitor( 2912): WifiMonitor:wlan0 cnt=88 dispatchEvent: HEART-BEAT-ACK: 27
+E/WifiStateMachine( 2912):  ConnectedState !what:147506 0 0
+E/WifiStateMachine( 2912):  L2ConnectedState !what:147506 0 0
+E/WifiStateMachine( 2912):  ConnectModeState !what:147506 0 0
+E/WifiStateMachine( 2912):  DriverStartedState !what:147506 0 0
+E/WifiStateMachine( 2912):  SupplicantStartedState !what:147506 0 0
+I/Hwaps   ( 9018): APS: version is 2.0.32
+W/PGApi_client( 3463): recv actoionId = 10011, action = com.huawei.pgmng.PGAction@8b6568b actionId =10011 pkg =org.kivy.pygame extend1 =39 extend2 =4 flag =3 type =1
+W/PGMiddleWare jhh( 3463): in handleAction method, action = 10011
+W/PGMiddleWare jhh( 3463): in handleAction, invoke client = com.huawei.pgmng.middleware.AudioEffectLowPowerImpl@2377816, action = com.huawei.pgmng.PGAction@8b6568b actionId =10011 pkg =org.kivy.pygame extend1 =39 extend2 =4 flag =3 type =1
+I/AudioEffectLowPowerImpl jhh( 3463): jhh handle default mActionId = 10011, action = com.huawei.pgmng.PGAction@8b6568b actionId =10011 pkg =org.kivy.pygame extend1 =39 extend2 =4 flag =3 type =1
+W/AudioEffectLowPowerImpl jhh( 3463): enter into 2D Game Scene.
+W/AudioEffectLowPowerImpl jhh( 3463): m2DGameFront = true, m3DGameFront = false, mMediaPerceptible = false, mMusicPerceptible = false
+I/AudioPolicyManager( 2544): isStreamActive() stream 3 inPastMs 0
+W/AudioEffectLowPowerImpl jhh( 3463): mAudioActive = true, mMusicPerceptible = false
+W/AudioEffectLowPowerImpl jhh( 3463): return for smartPAOn and mLowAudioEffectEnable both = false
+I/CpuGovernorPolicy( 3463): delay cpuItem: id = 233, delay time  = 2000
+E/WifiStateMachine( 2912):  ConnectedState !CMD_RSSI_POLL 11 0 "SPARK-47A2ZV" b0:e5:ed:3e:35:d4 rssi=-63 f=2412 sc=100 link=72 tx=147.8, 0.0, 0.0  rx=163.8 bcn=0 [on:0 tx:0 rx:0 period:3002] from screen [on:0 period:-1837751748] gl hn u24 rssi=-58 ag=0 hr ticks 0,0,4 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+E/WifiStateMachine( 2912):  L2ConnectedState !CMD_RSSI_POLL 11 0 "SPARK-47A2ZV" b0:e5:ed:3e:35:d4 rssi=-63 f=2412 sc=100 link=72 tx=147.8, 0.0, 0.0  rx=163.8 bcn=0 [on:0 tx:0 rx:0 period:2] from screen [on:0 period:-1837751746] gl hn u24 rssi=-58 ag=0 hr ticks 0,0,4 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+E/WifiStateMachine( 2912): fetchRssiLinkSpeedAndFrequencyNative rssi=-64 linkspeed=72 SSID="SPARK-47A2ZV"
+E/WifiStateMachine( 2912): calculateWifiScore freq=2412 speed=72 score=100 highRSSI  -> txbadrate=0.00 txgoodrate=103.38 txretriesrate=0.00 rxrate=120.88 userTriggerdPenalty0
+E/WifiStateMachine( 2912):  good link -> stuck count =0
+E/WifiStateMachine( 2912):  badRSSI count0 lowRSSI count0 --> score 60
+E/WifiStateMachine( 2912):  isHighRSSI       ---> score=65
+I/Finsky  ( 6374): [83] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-frosting.db com.google.android.finsky.bo.ao@2e8fca71[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 1]
+I/MQoS    ( 2912): onSignal: mSubId=0,currDataSubID=0
+I/MQoS    ( 2912): received cell-signal:5
+I/OAM     ( 2713): [check_file_size:402]/data/hwlogdir/wifi_log/wifi_log_1 log file beyond size=10240Byte, creat new file
+I/OAM     ( 2713): [rename_old_file:107]rename_old_file
+I/OAM     ( 2713): 
+I/MediaPlayerFactory( 2544): filePath /storage/emulated/0/kivy/pub/audio/disco_dancing.wav!
+E/MediaPlayerFactory( 2544):  create StagefrightPlayer
+E/MediaPlayer( 9018): Should have subtitle controller already set
+I/str_params( 2544): key: 'mode' value: ''
+I/AwesomePlayer( 2544): [isLowPowerMode] isLowPowerApk[0]
+I/AwesomePlayer( 2544): is not Low Power Apk.
+I/AwesomePlayer( 2544): create AudioPlayer
+W/audio_a2dp_hw( 2544): adev_set_parameters: WARNING: set param called even when stream out is null
+I/AudioPolicyManager( 2544): getOutput() stream 3, samplingRate 0, format 0, channelMask 3, flags 0
+W/audio_a2dp_hw( 2544): adev_set_parameters: WARNING: set param called even when stream out is null
+I/AudioPolicyManager( 2544): getOutput() stream 3, samplingRate 0, format 0, channelMask 3, flags 0
+I/AudioPolicyManager( 2544): getOutput() stream 3, samplingRate 44100, format 1, channelMask 3, flags 0
+I/AudioPolicyManager( 2544): getOutput() stream 3, samplingRate 0, format 0, channelMask 3, flags 0
+I/AudioPolicyManager( 2544): startOutput() output 2, stream 3, session 20
+E/HsmCoreServiceImpl( 2912): onTransact in code is: 102
+I/MediaProcessHandler( 2912): processOp opType: 0, uid: 10096, pid: 9018
+I/AudioPolicyManager( 2544): stopOutput() output 2, stream 3, session 20
+I/PhoneStatusBar( 3200): shouldTranslucent:true
+E/WifiStateMachine( 2912):  ConnectedState !CMD_RSSI_POLL 11 0 "SPARK-47A2ZV" b0:e5:ed:3e:35:d4 rssi=-64 f=2412 sc=100 link=72 tx=103.4, 0.0, 0.0  rx=120.9 bcn=0 [on:0 tx:0 rx:0 period:3003] from screen [on:0 period:-1837748740] gl hn u24 rssi=-59 ag=0 hr ticks 0,0,4 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+E/WifiStateMachine( 2912):  L2ConnectedState !CMD_RSSI_POLL 11 0 "SPARK-47A2ZV" b0:e5:ed:3e:35:d4 rssi=-64 f=2412 sc=100 link=72 tx=103.4, 0.0, 0.0  rx=120.9 bcn=0 [on:0 tx:0 rx:0 period:1] from screen [on:0 period:-1837748739] gl hn u24 rssi=-59 ag=0 hr ticks 0,0,4 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+E/WifiStateMachine( 2912): fetchRssiLinkSpeedAndFrequencyNative rssi=-60 linkspeed=72 SSID="SPARK-47A2ZV"
+E/WifiStateMachine( 2912): calculateWifiScore freq=2412 speed=72 score=100 highRSSI  -> txbadrate=0.00 txgoodrate=82.19 txretriesrate=0.00 rxrate=103.44 userTriggerdPenalty0
+E/WifiStateMachine( 2912):  good link -> stuck count =0
+E/WifiStateMachine( 2912):  badRSSI count0 lowRSSI count0 --> score 60
+E/WifiStateMachine( 2912):  isHighRSSI       ---> score=65
+I/PhoneStatusBar( 3200): shouldTranslucent:true
+E/Lss     ( 8930): SlpGwCommunicator::errorCallback: ERROR: SLP GW error: 2208
+W/Lss     ( 8930): Response does not contain status bytes. Len is only : 0
+E/Lss     ( 8930): Reading Gnss response failed. Status 2208, resp msg status 0
+E/Lss     ( 8930): Could not get assistance data response
+E/Lss     ( 8930): Empty response
+I/AudioPolicyManager( 2544): stopOutput() output 2, stream 3, session 20
+I/AudioPolicyManager( 2544): getNewOutputDevice() selected device 0
+I/AudioPolicyManager( 2544): setOutputDevice() output 2 device 0x0000 delayMs 40
+I/AudioPolicyManager( 2544): setOutputDevice() prevDevice 0x0002
+I/AudioPolicyManager( 2544): isStreamActive() stream 3 inPastMs 5000
+I/AudioPolicyManager( 2544): setOutputDevice() setting same device 0x0000 or null device for output 2
+I/AudioPolicyManager( 2544): isStreamActive() stream 3 inPastMs 5000
+I/AudioPolicyManager( 2544): isStreamActive() stream 3 inPastMs 5000
+I/MediaPlayerFactory( 2544): filePath /storage/emulated/0/kivy/pub/audio/disco_dancing.wav!
+E/MediaPlayerFactory( 2544):  create StagefrightPlayer
+E/MediaPlayer( 9018): Should have subtitle controller already set
+I/str_params( 2544): key: 'mode' value: ''
+I/AwesomePlayer( 2544): [isLowPowerMode] isLowPowerApk[0]
+I/AwesomePlayer( 2544): is not Low Power Apk.
+I/AwesomePlayer( 2544): create AudioPlayer
+W/audio_a2dp_hw( 2544): adev_set_parameters: WARNING: set param called even when stream out is null
+I/AudioPolicyManager( 2544): getOutput() stream 3, samplingRate 0, format 0, channelMask 3, flags 0
+W/audio_a2dp_hw( 2544): adev_set_parameters: WARNING: set param called even when stream out is null
+I/AudioPolicyManager( 2544): getOutput() stream 3, samplingRate 0, format 0, channelMask 3, flags 0
+I/AudioPolicyManager( 2544): getOutput() stream 3, samplingRate 44100, format 1, channelMask 3, flags 0
+I/AudioPolicyManager( 2544): getOutput() stream 3, samplingRate 0, format 0, channelMask 3, flags 0
+I/AudioPolicyManager( 2544): startOutput() output 2, stream 3, session 20
+I/AudioPolicyManager( 2544): getNewOutputDevice() selected device 2
+I/AudioPolicyManager( 2544): isStreamActive() stream 3 inPastMs 0
+I/AudioPolicyManager( 2544): setOutputDevice() output 2 device 0x0002 delayMs 0
+I/AudioPolicyManager( 2544): setOutputDevice() prevDevice 0x0002
+I/AudioPolicyManager( 2544): isStreamActive() stream 3 inPastMs 5000
+I/AudioPolicyManager( 2544): setOutputDevice() setting same device 0x0002 or null device for output 2
+I/audio_hw_primary( 2544): check_device_change return 1
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): checkAndSetVolume: index 5 output 2 device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): checkAndSetVolume: index 0 output 2 device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): checkAndSetVolume: index 0 output 2 device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): checkAndSetVolume: index 2 output 2 device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): checkAndSetVolume: index 1 output 2 device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): checkAndSetVolume: index 0 output 2 device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): checkAndSetVolume: index 7 output 2 device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): checkAndSetVolume: index 7 output 2 device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): checkAndSetVolume: index 0 output 2 device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): checkAndSetVolume: index 2 output 2 device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): checkAndSetVolume: index 11 output 2 device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): checkAndSetVolume: index 2 output 2 device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): getDeviceForVolume() selected device 0x2
+I/AudioPolicyManager( 2544): isStreamActive() stream 3 inPastMs 5000
+I/AudioPolicyManager( 2544): isStreamActive() stream 3 inPastMs 5000
+E/HsmCoreServiceImpl( 2912): onTransact in code is: 102
+I/MediaProcessHandler( 2912): processOp opType: 0, uid: 10096, pid: 9018
+E/Thermal-daemon( 2346): [charger_ic] temp_new :38  temp_old :37
+E/Thermal-daemon( 2346): Report temperature: [charger_ic] temp :38  report_threshold:1
+E/WifiStateMachine( 2912):  ConnectedState !CMD_RSSI_POLL 11 0 "SPARK-47A2ZV" b0:e5:ed:3e:35:d4 rssi=-60 f=2412 sc=100 link=72 tx=82.2, 0.0, 0.0  rx=103.4 bcn=0 [on:0 tx:0 rx:0 period:3004] from screen [on:0 period:-1837745729] gl hn u24 rssi=-55 ag=0 hr ticks 0,0,4 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+E/WifiStateMachine( 2912):  L2ConnectedState !CMD_RSSI_POLL 11 0 "SPARK-47A2ZV" b0:e5:ed:3e:35:d4 rssi=-60 f=2412 sc=100 link=72 tx=82.2, 0.0, 0.0  rx=103.4 bcn=0 [on:0 tx:0 rx:0 period:2] from screen [on:0 period:-1837745727] gl hn u24 rssi=-55 ag=0 hr ticks 0,0,4 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+E/WifiStateMachine( 2912): fetchRssiLinkSpeedAndFrequencyNative rssi=-62 linkspeed=72 SSID="SPARK-47A2ZV"
+E/WifiStateMachine( 2912): calculateWifiScore freq=2412 speed=72 score=100 highRSSI  -> txbadrate=0.00 txgoodrate=75.59 txretriesrate=0.00 rxrate=96.72 userTriggerdPenalty0
+E/WifiStateMachine( 2912):  good link -> stuck count =0
+E/WifiStateMachine( 2912):  badRSSI count0 lowRSSI count0 --> score 60
+E/WifiStateMachine( 2912):  isHighRSSI       ---> score=65
+I/OAM     ( 2713): [check_file_size:402]/data/hwlogdir/wifi_log/wifi_log_1 log file beyond size=10240Byte, creat new file
+I/OAM     ( 2713): [rename_old_file:107]rename_old_file
+I/OAM     ( 2713): 

@@ -1,0 +1,73 @@
+<PlayScreen>:
+
+
+
+<PlaySurface>:
+    size_hint: 1,1
+
+    canvas.before:
+        Rectangle:
+            pos: self.pos
+            size: self.size
+            source: 'images/tiled_background.png'
+
+
+<Spinner>:
+
+    canvas.before:
+        PushMatrix
+        Rotate:
+            angle: root.angle
+            axis: 0, 0, 1
+            origin: root.center
+    canvas.after:
+        PopMatrix
+
+<TimerBar>:
+    size_hint: 1, None
+    height: dp(12)
+
+    canvas:
+        BorderImage:
+            border: (dp(12), dp(12), dp(12), dp(12))
+            pos: self.x, self.center_y - dp(12)
+            size: self.width, dp(24)
+            source: 'images/prog_back.png'
+        BorderImage:
+            border: [int(min(self.width * (self.value / float(self.max)) if self.max else 0, dp(12)))] * 4
+            pos: self.x, self.center_y - dp(12)
+            size: self.width * (self.value / float(self.max)) if self.max else 0, dp(24)
+            source: 'images/prog_front.png'
+
+<PlayOptions>:
+    size_hint: 0.5, 0.5
+    auto_dismiss: False
+
+    Button:
+        size_hint: 0.3, 0.1
+        text: 'RESET'
+        on_release: root.dismiss(), app.root.children[0].reset_game()
+
+
+<AnimatedBoxLayoutAlone>:
+
+    AllAlone:
+        pos_hint: {'center_x': 0.5, 'center_y': 0.5}
+
+
+    PlayButton:
+        pos_hint: {'center_x': 0.5, 'center_y': 0.5}
+        on_release: app.root.children[0].reset_game()
+
+<AnimatedBoxLayoutChug>:
+
+    Chug:
+        pos_hint: {'center_x': 0.5, 'center_y': 0.5}
+
+
+    PlayButton:
+        pos_hint: {'center_x': 0.5, 'center_y': 0.5}
+        on_release: app.root.children[0].reset_game()
+
+
+

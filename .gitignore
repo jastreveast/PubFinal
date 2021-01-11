@@ -1,0 +1,11 @@
+.buildozer/
+/env/
+/venv/
+.idea/
+keystore/
+.pyc
+.pyo
+.afdesign
+venv/share/
+
+

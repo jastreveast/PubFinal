@@ -1,0 +1,81 @@
+
+#: import color kivy.utils.get_color_from_hex
+
+
+<StartScreen>:
+    id: start_screen
+    size_hint: 1,1
+
+    canvas.before:
+        Rectangle:
+            pos: self.pos
+            size: self.size
+            texture: app.texture
+
+
+    BoxLayout:
+        orientation: 'vertical'
+        size_hint: None, None
+        width: dp(259.5)
+        height: dp(305.8)
+        spacing: dp(20)
+        pos_hint: {'center_x': 0.5, 'center_y': 0.5}
+
+
+
+
+
+
+        GameTitle:
+            id: game_title
+            pos_hint: {'center_x': 0.5, 'center_y': 0.5}
+
+
+
+
+
+
+
+        PlayButton:
+
+            pos_hint: {'center_x': 0.5, 'center_y': 0.5}
+            on_release: app.root.play_screen()
+
+
+
+
+
+
+<SettingsModal>:
+
+    FloatLayout:
+        size_hint: 1, 1
+
+        BeerGlass:
+            pos_hint: {'x': 0.131, 'y': 0.2 }
+
+#TODO: sort the instruction leaflet nothing being done here yet only a placeholder inserted
+<InfoModal>:
+    FloatLayout:
+        size_hint: 1, 1
+
+        ScrollView:
+            pos_hint: {'center_x': 0.5, 'top': 1}
+            size_hint: 1,1
+            do_scroll_x: False
+
+            Image:
+                pos: 0,0
+                source: 'images/background.png'
+                size_hint: None,None
+                height: 1280
+                width: 720
+
+
+
+
+
+
+
+
+
